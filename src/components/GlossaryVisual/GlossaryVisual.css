@@ -1,0 +1,106 @@
+.glossary-visual {
+  background:
+    radial-gradient(circle at 18% 20%, rgba(143, 211, 255, 0.18), transparent 28%),
+    radial-gradient(circle at 82% 86%, rgba(225, 6, 0, 0.24), transparent 32%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.015)),
+    #101010;
+  border-bottom: 1px solid var(--color-border);
+  min-height: 132px;
+  overflow: hidden;
+}
+
+.glossary-visual svg {
+  display: block;
+  height: 132px;
+  width: 100%;
+}
+
+.glossary-visual__flow {
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 6;
+}
+
+.glossary-visual__flow--blue {
+  stroke: rgba(143, 211, 255, 0.86);
+}
+
+.glossary-visual__flow--red {
+  stroke: rgba(225, 6, 0, 0.88);
+}
+
+.glossary-visual__car-body,
+.glossary-visual__panel {
+  fill: rgba(229, 229, 229, 0.72);
+  stroke: rgba(255, 255, 255, 0.44);
+  stroke-width: 2;
+}
+
+.glossary-visual__accent,
+.glossary-visual__track {
+  fill: none;
+  stroke: var(--color-warm);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 6;
+}
+
+.glossary-visual__track {
+  opacity: 0.72;
+  stroke: rgba(255, 255, 255, 0.36);
+  stroke-width: 10;
+}
+
+.glossary-visual__accent-fill {
+  fill: rgba(225, 6, 0, 0.8);
+  stroke: rgba(255, 255, 255, 0.36);
+  stroke-width: 2;
+}
+
+.glossary-visual__wheel,
+.glossary-visual__tyre {
+  fill: #050505;
+  stroke: #5c5c5c;
+  stroke-width: 11;
+}
+
+.glossary-visual__rim {
+  fill: #272727;
+  stroke: rgba(255, 255, 255, 0.2);
+  stroke-width: 4;
+}
+
+.glossary-visual__helmet,
+.glossary-visual__marker {
+  fill: var(--color-accent);
+  stroke: rgba(255, 255, 255, 0.58);
+  stroke-width: 3;
+}
+
+.glossary-visual--energy {
+  background:
+    radial-gradient(circle at 50% 42%, rgba(248, 193, 74, 0.22), transparent 34%),
+    linear-gradient(145deg, rgba(143, 211, 255, 0.12), rgba(255, 255, 255, 0.02)),
+    #0d1111;
+}
+
+.glossary-visual--tyre {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1), transparent 26%),
+    radial-gradient(circle at 78% 18%, rgba(225, 6, 0, 0.26), transparent 28%),
+    #101010;
+}
+
+.glossary-visual--safety {
+  background:
+    radial-gradient(circle at 50% 36%, rgba(143, 211, 255, 0.22), transparent 30%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02)),
+    #101010;
+}
+
+.glossary-visual--rules {
+  background:
+    radial-gradient(circle at 72% 78%, rgba(248, 193, 74, 0.24), transparent 28%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02)),
+    #111;
+}

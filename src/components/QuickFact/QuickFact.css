@@ -1,0 +1,44 @@
+.quick-fact {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--quick-fact-accent, var(--color-primary));
+  border-radius: 8px;
+  min-height: 138px;
+  padding: 1rem;
+}
+
+.quick-fact--blue {
+  --quick-fact-accent: var(--color-accent);
+}
+
+.quick-fact--gold {
+  --quick-fact-accent: var(--color-warm);
+}
+
+.quick-fact--green {
+  --quick-fact-accent: #43d18a;
+}
+
+.quick-fact__label {
+  color: var(--color-muted);
+  font-size: 0.78rem;
+  font-weight: 900;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.quick-fact__value {
+  color: var(--color-text);
+  display: block;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1;
+}
+
+.quick-fact__description {
+  color: var(--color-muted);
+  line-height: 1.55;
+  margin: 0.75rem 0 0;
+}
+

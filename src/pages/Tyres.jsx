@@ -1,6 +1,8 @@
 import Card from '../components/Card/Card.jsx'
 import ComparisonTable from '../components/ComparisonTable/ComparisonTable.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import VisualSection from '../components/VisualSection/VisualSection.jsx'
+import quickFacts from '../data/quickFacts.json'
 import tyres from '../data/tyres.json'
 
 const columns = [
@@ -17,6 +19,16 @@ function Tyres() {
         eyebrow="Pneus"
         title="Pneus et stratégie"
         description="Les pneus sont le lien direct entre la voiture et la piste. Leur température, leur usure et le moment de l’arrêt aux stands changent toute une course."
+      />
+
+      <VisualSection
+        eyebrow="Fenêtre de performance"
+        title="Le pneu décide le rythme disponible"
+        description="Une stratégie repose sur un équilibre fragile : grip immédiat, usure, trafic, météo et durée du relais."
+        diagram="tyres"
+        diagramTitle="Composés et rythme de relais"
+        facts={quickFacts.tyres}
+        reverse
       />
 
       <section className="section">
@@ -53,4 +65,3 @@ function Tyres() {
 }
 
 export default Tyres
-

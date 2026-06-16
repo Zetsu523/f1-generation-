@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
 import './Card.css'
 
-function Card({ eyebrow, title, description, items = [], to, linkLabel = 'Découvrir', children }) {
+function Card({ eyebrow, title, description, items = [], to, linkLabel = 'Découvrir', media, children }) {
   return (
     <article className="info-card">
+      {media ? <div className="info-card__media">{media}</div> : null}
       {eyebrow ? <p className="info-card__eyebrow">{eyebrow}</p> : null}
       <h3 className="info-card__title">{title}</h3>
       {description ? <p className="info-card__description">{description}</p> : null}
@@ -25,4 +26,3 @@ function Card({ eyebrow, title, description, items = [], to, linkLabel = 'Décou
 }
 
 export default Card
-

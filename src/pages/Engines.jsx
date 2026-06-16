@@ -1,7 +1,9 @@
 import Card from '../components/Card/Card.jsx'
 import ComparisonTable from '../components/ComparisonTable/ComparisonTable.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import engines from '../data/engines.json'
+import quickFacts from '../data/quickFacts.json'
 
 const columns = [
   { key: 'name', label: 'Génération' },
@@ -18,6 +20,15 @@ function Engines() {
         eyebrow="Moteurs"
         title="Moteurs et évolution"
         description="Des moteurs atmosphériques aux groupes propulseurs hybrides, la F1 raconte l’histoire d’une performance de plus en plus efficace."
+      />
+
+      <VisualSection
+        eyebrow="Groupe propulseur"
+        title="Le moteur moderne est un système d’énergie"
+        description="Un moteur de F1 ne se résume plus à sa puissance. Refroidissement, récupération électrique, intégration dans le châssis et fiabilité forment un ensemble."
+        diagram="engine"
+        diagramTitle="Flux simplifié d'un groupe hybride"
+        facts={quickFacts.engines}
       />
 
       <section className="section">
@@ -58,4 +69,3 @@ function Engines() {
 }
 
 export default Engines
-

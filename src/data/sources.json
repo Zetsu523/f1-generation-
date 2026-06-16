@@ -12,6 +12,12 @@
     "usage": "Contexte général sur l'histoire sportive et technique de la discipline."
   },
   {
+    "id": "formula1-hall-of-fame",
+    "title": "Formula 1 - Hall of Fame",
+    "url": "https://www.formula1.com/en/drivers/hall-of-fame",
+    "usage": "Repères sur les champions du monde et les grands pilotes de l'histoire de la F1."
+  },
+  {
     "id": "fia-regulations",
     "title": "FIA - Réglementations Formule 1",
     "url": "https://www.fia.com/regulation/category/110",
@@ -30,10 +36,15 @@
     "usage": "Vocabulaire et principes de base sur les pneus."
   },
   {
+    "id": "formula1-teams-2026",
+    "title": "Formula 1 - F1 Teams 2026",
+    "url": "https://www.formula1.com/en/teams",
+    "usage": "Liste des écuries, pilotes et visuels publics associés à la saison 2026."
+  },
+  {
     "id": "pirelli-2026",
     "title": "Pirelli - Informations pneus F1 2026",
     "url": "https://press.pirelli.com/pirelli-reveals-2026-f1-tyres-a-fresh-logo-design-and-new-compounds/",
     "usage": "Contexte récent sur la gamme de pneumatiques F1."
   }
 ]
-

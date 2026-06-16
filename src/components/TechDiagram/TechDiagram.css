@@ -1,0 +1,160 @@
+.tech-diagram {
+  background:
+    radial-gradient(circle at 24% 12%, rgba(143, 211, 255, 0.14), transparent 28%),
+    radial-gradient(circle at 74% 82%, rgba(225, 6, 0, 0.16), transparent 30%),
+    linear-gradient(145deg, #171717, #0b0b0b);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  margin: 0;
+  overflow: hidden;
+  padding: clamp(0.75rem, 2vw, 1rem);
+}
+
+.tech-diagram figcaption {
+  color: var(--color-text);
+  font-weight: 900;
+  margin: 0 0 0.5rem;
+}
+
+.tech-diagram__svg {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.tech-diagram text {
+  fill: var(--color-text);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.tech-diagram__panel {
+  fill: rgba(255, 255, 255, 0.035);
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 2;
+}
+
+.tech-diagram__line,
+.tech-diagram__flow {
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-linecap: round;
+  stroke-width: 12;
+}
+
+.tech-diagram__line--red {
+  stroke: var(--color-primary);
+}
+
+.tech-diagram__line--blue {
+  stroke: var(--color-accent);
+}
+
+.tech-diagram__line--thin {
+  stroke: rgba(255, 255, 255, 0.35);
+  stroke-width: 4;
+}
+
+.tech-diagram__flow {
+  opacity: 0.9;
+  stroke-dasharray: 18 20;
+}
+
+.tech-diagram__flow--soft {
+  opacity: 0.5;
+}
+
+.tech-diagram__block,
+.tech-diagram__car-shape {
+  fill: rgba(245, 245, 245, 0.12);
+  stroke: rgba(245, 245, 245, 0.68);
+  stroke-width: 3;
+}
+
+.tech-diagram__accent,
+.tech-diagram__node,
+.tech-diagram__bar {
+  fill: rgba(225, 6, 0, 0.32);
+  stroke: rgba(255, 255, 255, 0.3);
+  stroke-width: 3;
+}
+
+.tech-diagram__accent--blue,
+.tech-diagram__node--blue {
+  fill: rgba(143, 211, 255, 0.28);
+}
+
+.tech-diagram__node--gold {
+  fill: rgba(248, 193, 74, 0.28);
+}
+
+.tech-diagram__node--green {
+  fill: rgba(67, 209, 138, 0.25);
+}
+
+.tech-diagram__node--main {
+  fill: rgba(245, 245, 245, 0.12);
+}
+
+.tech-diagram__wheel,
+.tech-diagram__tyre {
+  fill: #050505;
+  stroke: #4a4a4a;
+  stroke-width: 16;
+}
+
+.tech-diagram__tyre--soft {
+  stroke: var(--color-primary-soft);
+}
+
+.tech-diagram__tyre--medium {
+  stroke: var(--color-warm);
+}
+
+.tech-diagram__tyre--hard {
+  stroke: #e8e8e8;
+}
+
+.tech-diagram__zone {
+  fill: rgba(143, 211, 255, 0.18);
+  stroke: rgba(143, 211, 255, 0.64);
+  stroke-width: 3;
+}
+
+.tech-diagram__zone--center {
+  fill: rgba(245, 245, 245, 0.1);
+  stroke: rgba(245, 245, 245, 0.48);
+}
+
+.tech-diagram__zone--rear {
+  fill: rgba(225, 6, 0, 0.2);
+  stroke: rgba(225, 6, 0, 0.64);
+}
+
+.tech-diagram__bar--one {
+  fill: rgba(143, 211, 255, 0.2);
+}
+
+.tech-diagram__bar--two {
+  fill: rgba(143, 211, 255, 0.34);
+}
+
+.tech-diagram__bar--three {
+  fill: rgba(248, 193, 74, 0.35);
+}
+
+.tech-diagram__bar--four {
+  fill: rgba(225, 6, 0, 0.32);
+}
+
+.tech-diagram__bar--five {
+  fill: rgba(67, 209, 138, 0.32);
+}
+
+@media (max-width: 560px) {
+  .tech-diagram text {
+    font-size: 20px;
+  }
+}
+

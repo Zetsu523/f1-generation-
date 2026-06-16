@@ -10,7 +10,7 @@
 .site-header__inner {
   align-items: center;
   display: flex;
-  gap: 1.25rem;
+  gap: 0.9rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--layout-max-width);
@@ -35,17 +35,17 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  gap: 0.25rem;
   justify-content: flex-end;
 }
 
 .site-header__link {
   border-radius: 8px;
   color: var(--color-muted);
-  font-size: 0.92rem;
+  font-size: 0.86rem;
   font-weight: 700;
   line-height: 1;
-  padding: 0.72rem 0.82rem;
+  padding: 0.68rem 0.62rem;
   text-decoration: none;
   transition: background-color 160ms ease, color 160ms ease;
 }
@@ -133,4 +133,3 @@
     top: 72px;
   }
 }
-

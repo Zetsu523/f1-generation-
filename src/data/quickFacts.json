@@ -1,0 +1,87 @@
+{
+  "home": [
+    {
+      "label": "Lecture",
+      "value": "visuelle",
+      "description": "Les notions clés sont associées à des schémas et repères courts.",
+      "tone": "blue"
+    },
+    {
+      "label": "Format",
+      "value": "statique",
+      "description": "Tout reste compatible avec GitHub Pages.",
+      "tone": "green"
+    }
+  ],
+  "engines": [
+    {
+      "label": "Idée clé",
+      "value": "énergie",
+      "description": "La F1 moderne gère puissance thermique et puissance électrique.",
+      "tone": "blue"
+    },
+    {
+      "label": "Compromis",
+      "value": "poids",
+      "description": "Un moteur performant doit aussi s'intégrer au châssis et au refroidissement.",
+      "tone": "gold"
+    }
+  ],
+  "aero": [
+    {
+      "label": "But",
+      "value": "appui",
+      "description": "Créer du grip en virage sans trop pénaliser les lignes droites.",
+      "tone": "blue"
+    },
+    {
+      "label": "Risque",
+      "value": "traînée",
+      "description": "Trop d'appui peut rendre la voiture moins rapide en ligne droite.",
+      "tone": "red"
+    }
+  ],
+  "tyres": [
+    {
+      "label": "Fenêtre",
+      "value": "température",
+      "description": "Un pneu doit rester dans sa zone idéale pour donner du grip.",
+      "tone": "gold"
+    },
+    {
+      "label": "Course",
+      "value": "relais",
+      "description": "Le moment de l'arrêt change le rythme et le trafic.",
+      "tone": "blue"
+    }
+  ],
+  "regulations": [
+    {
+      "label": "Cadre",
+      "value": "zones",
+      "description": "Les règles définissent où et comment concevoir la voiture.",
+      "tone": "blue"
+    },
+    {
+      "label": "Priorité",
+      "value": "sécurité",
+      "description": "Les crash-tests et protections structurent la conception.",
+      "tone": "green"
+    }
+  ],
+  "glossary": [
+    {
+      "label": "Recherche",
+      "value": "instant",
+      "description": "Les termes se filtrent par mot, catégorie ou définition.",
+      "tone": "blue"
+    },
+    {
+      "label": "Niveau",
+      "value": "débutant",
+      "description": "Les définitions privilégient les explications simples.",
+      "tone": "green"
+    }
+  ]
+}
+

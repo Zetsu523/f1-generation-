@@ -3,10 +3,12 @@ export const navItems = [
   { to: '/histoire', label: 'Histoire' },
   { to: '/moteurs', label: 'Moteurs' },
   { to: '/composants', label: 'Composants' },
+  { to: '/ecuries', label: 'Écuries' },
   { to: '/aerodynamique', label: 'Aérodynamique' },
   { to: '/pneus', label: 'Pneus' },
   { to: '/reglements', label: 'Règlements' },
+  { to: '/monoplace-interactive', label: 'Monoplace' },
+  { to: '/comparateur-epoques', label: 'Comparateur' },
   { to: '/glossaire', label: 'Glossaire' },
   { to: '/sources', label: 'Sources' },
 ]
-

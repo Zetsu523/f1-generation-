@@ -1,7 +1,11 @@
 import { Link } from 'react-router-dom'
 import Card from '../components/Card/Card.jsx'
+import QuizCard from '../components/QuizCard/QuizCard.jsx'
 import Timeline from '../components/Timeline/Timeline.jsx'
+import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import eras from '../data/eras.json'
+import quickFacts from '../data/quickFacts.json'
+import quizQuestions from '../data/quizQuestions.json'
 
 const quickLinks = [
   {
@@ -27,6 +31,18 @@ const quickLinks = [
     description: 'Retrouver rapidement une définition simple des termes de course et d’ingénierie.',
     to: '/glossaire',
     eyebrow: 'Vocabulaire',
+  },
+  {
+    title: 'Monoplace interactive',
+    description: 'Explorer une F1 générique par zones : pneus, halo, plancher, pontons et ailerons.',
+    to: '/monoplace-interactive',
+    eyebrow: 'Interactif',
+  },
+  {
+    title: 'Comparateur d’époques',
+    description: 'Comparer deux générations pour voir ce qui change côté moteur, aéro et règlement.',
+    to: '/comparateur-epoques',
+    eyebrow: 'Comparer',
   },
 ]
 
@@ -54,7 +70,7 @@ function Home() {
             </div>
             <div className="metric-strip" aria-label="Points clés du site">
               <div className="metric-strip__item">
-                <span className="metric-strip__value">8</span>
+                <span className="metric-strip__value">10</span>
                 <span className="metric-strip__label">rubriques principales</span>
               </div>
               <div className="metric-strip__item">
@@ -87,6 +103,25 @@ function Home() {
           </div>
         </section>
 
+        <VisualSection
+          eyebrow="Apprendre par l’image"
+          title="Partir de la voiture, puis comprendre le vocabulaire"
+          description="La V2 met davantage l’accent sur les schémas, les zones techniques et les repères courts pour rendre les notions moins abstraites."
+          diagram="comparison"
+          diagramTitle="Vue pédagogique de l’évolution"
+          facts={quickFacts.home}
+          reverse
+        >
+          <div className="button-row">
+            <Link className="button button--primary" to="/monoplace-interactive">
+              Voir la monoplace
+            </Link>
+            <Link className="button button--secondary" to="/comparateur-epoques">
+              Comparer les époques
+            </Link>
+          </div>
+        </VisualSection>
+
         <section className="section">
           <div className="content-grid">
             <div className="section__header">
@@ -102,13 +137,16 @@ function Home() {
         </section>
 
         <section className="section section--compact">
-          <div className="feature-band">
-            <h2>Un socle prêt à grandir</h2>
-            <p>
-              Les contenus sont stockés dans des fichiers JSON versionnés. Les prochaines pages
-              peuvent ajouter des fiches de monoplaces, des écuries, des comparateurs et des quiz
-              sans changer l’architecture principale.
-            </p>
+          <div className="quiz-layout">
+            <div className="feature-band">
+              <h2>Un socle prêt à grandir</h2>
+              <p>
+                Les contenus sont stockés dans des fichiers JSON versionnés. Les prochaines pages
+                peuvent ajouter des fiches de monoplaces, des écuries et des comparateurs plus
+                poussés sans changer l’architecture principale.
+              </p>
+            </div>
+            <QuizCard title="Mini quiz F1" questions={quizQuestions} />
           </div>
         </section>
       </div>
@@ -117,4 +155,3 @@ function Home() {
 }
 
 export default Home
-

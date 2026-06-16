@@ -1,0 +1,92 @@
+[
+  {
+    "id": "front-wing",
+    "name": "Aileron avant",
+    "category": "Aérodynamique",
+    "role": "Il crée de l'appui à l'avant et prépare le flux d'air qui arrive sur le reste de la voiture.",
+    "lesson": "Une petite modification peut changer l'équilibre complet de la monoplace.",
+    "signal": "Grip avant, stabilité à l'entrée du virage",
+    "marker": { "left": "13%", "top": "51%" }
+  },
+  {
+    "id": "cockpit",
+    "name": "Cockpit",
+    "category": "Pilotage",
+    "role": "C'est l'espace du pilote, avec le siège, le volant et les commandes principales.",
+    "lesson": "Le pilote ajuste souvent la voiture en roulant via le volant.",
+    "signal": "Contrôle, informations, réglages",
+    "marker": { "left": "47%", "top": "49%" }
+  },
+  {
+    "id": "halo",
+    "name": "Halo",
+    "category": "Sécurité",
+    "role": "Il protège la tête du pilote contre certains impacts ou objets.",
+    "lesson": "La sécurité moderne fait partie de la performance globale de la voiture.",
+    "signal": "Protection du pilote",
+    "marker": { "left": "48%", "top": "36%" }
+  },
+  {
+    "id": "tyres",
+    "name": "Pneus",
+    "category": "Contact piste",
+    "role": "Ils transmettent au sol l'accélération, le freinage et les forces en virage.",
+    "lesson": "Toute la stratégie dépend de leur température et de leur usure.",
+    "signal": "Grip, dégradation, stratégie",
+    "marker": { "left": "72%", "top": "25%" }
+  },
+  {
+    "id": "brakes",
+    "name": "Freins",
+    "category": "Mécanique",
+    "role": "Ils ralentissent la voiture et doivent rester dans une bonne fenêtre de température.",
+    "lesson": "Freiner tard fait gagner du temps, mais demande une voiture stable.",
+    "signal": "Décélération, chaleur, confiance",
+    "marker": { "left": "27%", "top": "29%" }
+  },
+  {
+    "id": "sidepods",
+    "name": "Pontons",
+    "category": "Refroidissement",
+    "role": "Ils guident l'air vers les radiateurs et influencent le flux autour de l'arrière.",
+    "lesson": "Le refroidissement est toujours un compromis avec l'aérodynamique.",
+    "signal": "Température, traînée, flux latéral",
+    "marker": { "left": "60%", "top": "59%" }
+  },
+  {
+    "id": "floor",
+    "name": "Fond plat",
+    "category": "Aérodynamique",
+    "role": "Il accélère l'air sous la voiture pour créer de l'appui avec l'effet de sol.",
+    "lesson": "Sur les F1 modernes, une grande partie de l'appui vient du dessous.",
+    "signal": "Appui stable, hauteur de caisse",
+    "marker": { "left": "53%", "top": "69%" }
+  },
+  {
+    "id": "diffuser",
+    "name": "Diffuseur",
+    "category": "Aérodynamique",
+    "role": "Il organise la sortie de l'air sous la voiture à l'arrière.",
+    "lesson": "Il rend le travail du plancher plus efficace et plus stable.",
+    "signal": "Appui arrière, stabilité rapide",
+    "marker": { "left": "87%", "top": "58%" }
+  },
+  {
+    "id": "rear-wing",
+    "name": "Aileron arrière",
+    "category": "Aérodynamique",
+    "role": "Il crée de l'appui à l'arrière et porte le système DRS.",
+    "lesson": "Plus d'appui aide en virage, mais peut réduire la vitesse en ligne droite.",
+    "signal": "Stabilité arrière, DRS, traînée",
+    "marker": { "left": "93%", "top": "45%" }
+  },
+  {
+    "id": "power-unit",
+    "name": "Unité de puissance",
+    "category": "Hybridation",
+    "role": "Elle regroupe le moteur thermique, le turbo et les éléments hybrides.",
+    "lesson": "La F1 moderne transforme et gère l'énergie autant qu'elle produit de la puissance.",
+    "signal": "Puissance, récupération, fiabilité",
+    "marker": { "left": "70%", "top": "49%" }
+  }
+]

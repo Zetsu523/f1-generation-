@@ -1,0 +1,291 @@
+.interactive-car {
+  align-items: start;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+  padding: clamp(1.7rem, 5vw, 3.4rem) 0;
+}
+
+.interactive-car__stage {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.07), transparent 18%, transparent 82%, rgba(255, 255, 255, 0.05)),
+    linear-gradient(90deg, #050505 0%, #111 16%, #171717 50%, #111 84%, #050505 100%);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  height: clamp(330px, 34vw, 430px);
+  min-width: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.interactive-car__stage::before,
+.interactive-car__stage::after {
+  content: '';
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.interactive-car__stage::before {
+  background:
+    repeating-linear-gradient(58deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 15px),
+    repeating-linear-gradient(122deg, rgba(0, 0, 0, 0.32) 0 2px, transparent 2px 18px),
+    linear-gradient(90deg, rgba(225, 6, 0, 0.28), transparent 18%, transparent 82%, rgba(225, 6, 0, 0.28));
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.interactive-car__stage::after {
+  background:
+    linear-gradient(90deg, transparent 5%, rgba(143, 211, 255, 0.18) 18%, transparent 36%, transparent 64%, rgba(143, 211, 255, 0.14) 82%, transparent 95%),
+    linear-gradient(180deg, transparent 46%, rgba(255, 255, 255, 0.14) 49%, rgba(255, 255, 255, 0.03) 50%, transparent 54%),
+    radial-gradient(ellipse at center, transparent 46%, rgba(0, 0, 0, 0.48) 100%);
+  z-index: 0;
+}
+
+.interactive-car__svg {
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.interactive-car__floor {
+  fill: rgba(143, 211, 255, 0.08);
+  stroke: rgba(143, 211, 255, 0.34);
+  stroke-width: 3;
+}
+
+.interactive-car__body {
+  fill: url(#carBodyTop);
+  stroke: rgba(255, 255, 255, 0.38);
+  stroke-width: 3;
+}
+
+.interactive-car__nose {
+  fill: rgba(236, 236, 236, 0.82);
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 3;
+}
+
+.interactive-car__wing,
+.interactive-car__front-endplate,
+.interactive-car__diffuser {
+  fill: rgba(225, 6, 0, 0.18);
+  stroke: rgba(225, 6, 0, 0.68);
+  stroke-width: 4;
+}
+
+.interactive-car__wing-plane,
+.interactive-car__rear-plane {
+  fill: rgba(225, 6, 0, 0.48);
+}
+
+.interactive-car__sidepod {
+  fill: rgba(12, 12, 12, 0.66);
+  stroke: rgba(245, 245, 245, 0.22);
+  stroke-width: 3;
+}
+
+.interactive-car__engine-cover {
+  fill: rgba(20, 20, 20, 0.82);
+  stroke: rgba(245, 245, 245, 0.22);
+  stroke-width: 3;
+}
+
+.interactive-car__cockpit {
+  fill: rgba(5, 5, 5, 0.82);
+  stroke: rgba(245, 245, 245, 0.72);
+  stroke-width: 4;
+}
+
+.interactive-car__halo {
+  fill: none;
+  stroke: rgba(245, 245, 245, 0.88);
+  stroke-linecap: round;
+  stroke-width: 11;
+}
+
+.interactive-car__halo--center {
+  stroke-width: 8;
+}
+
+.interactive-car__suspension path {
+  fill: none;
+  stroke: rgba(245, 245, 245, 0.38);
+  stroke-linecap: round;
+  stroke-width: 5;
+}
+
+.interactive-car__wheel {
+  fill: #050505;
+  stroke: #4d4d4d;
+  stroke-width: 18;
+}
+
+.interactive-car__brake {
+  fill: rgba(248, 193, 74, 0.35);
+  stroke: rgba(248, 193, 74, 0.72);
+  stroke-width: 4;
+}
+
+.interactive-car__brake--rear {
+  fill: rgba(143, 211, 255, 0.22);
+  stroke: rgba(143, 211, 255, 0.62);
+}
+
+.interactive-car__flow {
+  fill: none;
+  opacity: 0.52;
+  stroke: rgba(143, 211, 255, 0.82);
+  stroke-dasharray: 20 20;
+  stroke-linecap: round;
+  stroke-width: 7;
+}
+
+.interactive-car__flow--bottom {
+  stroke: rgba(225, 6, 0, 0.72);
+}
+
+.interactive-car__hotspot {
+  align-items: center;
+  background: rgba(10, 10, 10, 0.88);
+  border: 2px solid rgba(255, 255, 255, 0.65);
+  border-radius: 50%;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.36);
+  color: var(--color-text);
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+  width: 34px;
+  z-index: 2;
+}
+
+.interactive-car__hotspot span {
+  font-size: 0.82rem;
+  font-weight: 950;
+  line-height: 1;
+}
+
+.interactive-car__hotspot:hover,
+.interactive-car__hotspot:focus-visible,
+.interactive-car__hotspot--active {
+  background: var(--color-primary);
+  border-color: white;
+  box-shadow: 0 0 0 6px rgba(225, 6, 0, 0.24);
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.interactive-car__panel {
+  background:
+    linear-gradient(145deg, rgba(225, 6, 0, 0.14), rgba(143, 211, 255, 0.07)),
+    var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-soft);
+  display: grid;
+  gap: 1rem;
+  min-width: 0;
+  padding: clamp(1rem, 2.5vw, 1.35rem);
+}
+
+.interactive-car__panel h2 {
+  color: var(--color-text);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1;
+  margin: 0;
+}
+
+.interactive-car__panel p {
+  color: var(--color-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.interactive-car__facts {
+  align-self: end;
+}
+
+.interactive-car__selector {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.interactive-car__select {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  color: var(--color-muted);
+  display: flex;
+  font-weight: 850;
+  gap: 0.45rem;
+  min-height: 42px;
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+}
+
+.interactive-car__select span {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+  color: var(--color-text);
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 0.76rem;
+  font-weight: 950;
+  height: 24px;
+  justify-content: center;
+  width: 24px;
+}
+
+.interactive-car__select:hover,
+.interactive-car__select:focus-visible,
+.interactive-car__select.is-active {
+  background: rgba(225, 6, 0, 0.18);
+  border-color: rgba(225, 6, 0, 0.72);
+  color: var(--color-text);
+}
+
+.interactive-car__select.is-active span {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 980px) {
+  .interactive-car {
+    grid-template-columns: 1fr;
+  }
+
+  .interactive-car__stage {
+    height: clamp(330px, 58vw, 430px);
+  }
+}
+
+@media (max-width: 720px) {
+  .interactive-car__stage {
+    height: clamp(300px, 68vw, 360px);
+  }
+
+  .interactive-car__selector {
+    grid-template-columns: 1fr;
+  }
+
+  .interactive-car__hotspot {
+    height: 30px;
+    width: 30px;
+  }
+}

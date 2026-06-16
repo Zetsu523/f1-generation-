@@ -1,5 +1,7 @@
 import Card from '../components/Card/Card.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import VisualSection from '../components/VisualSection/VisualSection.jsx'
+import quickFacts from '../data/quickFacts.json'
 import regulations from '../data/regulations.json'
 
 function Regulations() {
@@ -9,6 +11,15 @@ function Regulations() {
         eyebrow="Règlements"
         title="Règlements techniques"
         description="Les règlements définissent le terrain de jeu des ingénieurs. Ils encadrent la sécurité, l’aérodynamique, le moteur et l’exploitation de la voiture."
+      />
+
+      <VisualSection
+        eyebrow="Boîte technique"
+        title="Un cadre qui oriente l’innovation"
+        description="Les règles ne font pas que limiter : elles redirigent la créativité vers certaines zones de la voiture, certains objectifs de sécurité et certains compromis de course."
+        diagram="regulations"
+        diagramTitle="Zones réglementaires simplifiées"
+        facts={quickFacts.regulations}
       />
 
       <section className="section">
@@ -44,4 +55,3 @@ function Regulations() {
 }
 
 export default Regulations
-

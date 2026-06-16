@@ -2,92 +2,109 @@
   {
     "term": "Appui aérodynamique",
     "definition": "Force produite par l'air qui pousse la voiture vers la piste et augmente l'adhérence en virage.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "aero-flow"
   },
   {
     "term": "Traînée",
     "definition": "Résistance de l'air qui freine la voiture, surtout en ligne droite.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "aero-flow"
   },
   {
     "term": "DRS",
     "definition": "Système qui ouvre une partie de l'aileron arrière pour réduire la traînée dans certaines zones.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "rear-wing"
   },
   {
     "term": "ERS",
     "definition": "Système hybride qui récupère et redéploie de l'énergie électrique.",
-    "category": "Hybridation"
+    "category": "Hybridation",
+    "visual": "energy"
   },
   {
     "term": "MGU-K",
     "definition": "Élément hybride lié au freinage qui récupère de l'énergie cinétique et peut la redéployer.",
-    "category": "Hybridation"
+    "category": "Hybridation",
+    "visual": "energy"
   },
   {
     "term": "Undercut",
     "definition": "Stratégie consistant à s'arrêter avant un adversaire pour profiter de pneus plus frais.",
-    "category": "Stratégie"
+    "category": "Stratégie",
+    "visual": "strategy"
   },
   {
     "term": "Overcut",
     "definition": "Stratégie consistant à rester en piste plus longtemps qu'un adversaire avant de s'arrêter.",
-    "category": "Stratégie"
+    "category": "Stratégie",
+    "visual": "strategy"
   },
   {
     "term": "Graining",
     "definition": "Accumulation de gomme à la surface du pneu qui réduit temporairement l'adhérence.",
-    "category": "Pneus"
+    "category": "Pneus",
+    "visual": "tyre"
   },
   {
     "term": "Blistering",
     "definition": "Surchauffe interne qui crée des cloques ou zones abîmées sur le pneu.",
-    "category": "Pneus"
+    "category": "Pneus",
+    "visual": "tyre"
   },
   {
     "term": "Monocoque",
     "definition": "Structure centrale très résistante qui protège le pilote.",
-    "category": "Sécurité"
+    "category": "Sécurité",
+    "visual": "safety"
   },
   {
     "term": "Diffuseur",
     "definition": "Partie arrière du plancher qui aide l'air à sortir proprement sous la voiture.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "floor"
   },
   {
     "term": "Effet de sol",
     "definition": "Principe qui utilise le flux d'air sous la voiture pour créer de l'appui.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "floor"
   },
   {
     "term": "Halo",
     "definition": "Arceau de protection situé autour de la tête du pilote.",
-    "category": "Sécurité"
+    "category": "Sécurité",
+    "visual": "safety"
   },
   {
     "term": "Parc fermé",
     "definition": "Période pendant laquelle les modifications de la voiture sont fortement limitées.",
-    "category": "Règlement"
+    "category": "Règlement",
+    "visual": "rules"
   },
   {
     "term": "Porpoising",
     "definition": "Oscillation verticale provoquée par une perte puis un retour d'appui aérodynamique sous la voiture.",
-    "category": "Aérodynamique"
+    "category": "Aérodynamique",
+    "visual": "oscillation"
   },
   {
     "term": "Apex",
     "definition": "Point intérieur d'un virage que le pilote vise pour optimiser sa trajectoire.",
-    "category": "Pilotage"
+    "category": "Pilotage",
+    "visual": "driving"
   },
   {
     "term": "Brake balance",
     "definition": "Répartition du freinage entre l'avant et l'arrière, ajustable par le pilote.",
-    "category": "Pilotage"
+    "category": "Pilotage",
+    "visual": "brakes"
   },
   {
     "term": "Safety Car",
     "definition": "Voiture qui neutralise la course lorsque la piste doit être sécurisée.",
-    "category": "Course"
+    "category": "Course",
+    "visual": "course"
   }
 ]
-

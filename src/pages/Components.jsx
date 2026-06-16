@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import Card from '../components/Card/Card.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import components from '../data/components.json'
 
 function Components() {
@@ -23,6 +24,29 @@ function Components() {
         eyebrow="Composants"
         title="Composants d’une F1"
         description="Une Formule 1 est un système complet : chaque pièce influence l’aérodynamique, le grip mécanique, la sécurité ou la gestion de l’énergie."
+      />
+
+      <VisualSection
+        eyebrow="Vue système"
+        title="Une pièce ne travaille jamais seule"
+        description="Le plancher dépend de la hauteur de caisse, les pneus dépendent de la suspension, et le refroidissement influence directement la carrosserie."
+        diagram="regulations"
+        diagramTitle="Zones techniques simplifiées"
+        facts={[
+          {
+            label: 'Contact',
+            value: '4 pneus',
+            description: 'Toute la performance finit par passer dans quatre surfaces de contact.',
+            tone: 'green',
+          },
+          {
+            label: 'Équilibre',
+            value: 'global',
+            description: 'Un réglage local peut changer l’avant, l’arrière ou la stabilité en virage.',
+            tone: 'blue',
+          },
+        ]}
+        reverse
       />
 
       <section className="section">
@@ -59,4 +83,3 @@ function Components() {
 }
 
 export default Components
-

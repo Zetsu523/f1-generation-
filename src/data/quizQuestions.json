@@ -1,0 +1,36 @@
+[
+  {
+    "id": "aero-drag",
+    "question": "Pourquoi le DRS aide-t-il surtout en ligne droite ?",
+    "options": [
+      "Il réduit une partie de la traînée de l'aileron arrière.",
+      "Il augmente fortement la largeur des pneus.",
+      "Il coupe le moteur thermique."
+    ],
+    "answerIndex": 0,
+    "explanation": "Le DRS ouvre une partie de l'aileron arrière pour diminuer la résistance de l'air dans une zone autorisée."
+  },
+  {
+    "id": "tyres-window",
+    "question": "Quel facteur rend un pneu particulièrement performant pendant un relais ?",
+    "options": [
+      "Sa couleur uniquement.",
+      "Sa température et son niveau d'usure.",
+      "La forme du casque du pilote."
+    ],
+    "answerIndex": 1,
+    "explanation": "Un pneu donne son meilleur grip lorsqu'il reste dans une bonne fenêtre de température et ne se dégrade pas trop."
+  },
+  {
+    "id": "hybrid-ers",
+    "question": "À quoi sert l'ERS sur une F1 hybride ?",
+    "options": [
+      "À récupérer et redéployer de l'énergie électrique.",
+      "À ouvrir la visière du casque.",
+      "À remplacer les freins carbone."
+    ],
+    "answerIndex": 0,
+    "explanation": "L'ERS transforme une partie de l'énergie récupérable en puissance utilisable selon la stratégie de course."
+  }
+]
+

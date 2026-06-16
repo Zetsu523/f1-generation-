@@ -1,0 +1,81 @@
+[
+  {
+    "id": "1950-1960",
+    "name": "Années 1950-1960",
+    "period": "1950-1960",
+    "visualTone": "Mécanique brute",
+    "engine": "Moteurs atmosphériques, architectures variées",
+    "aero": "Aérodynamique encore secondaire",
+    "safety": "Protection très limitée par rapport aux standards modernes",
+    "tyres": "Pneus étroits, approche très mécanique",
+    "regulation": "Cadre technique en construction",
+    "beginnerSummary": "La voiture ressemble davantage à une machine de pilotage pur qu'à un système aérodynamique complexe.",
+    "highlights": ["moteur avant puis arrière", "pilotage exposé", "circuits très variés"]
+  },
+  {
+    "id": "1970-1980",
+    "name": "Années 1970-1980",
+    "period": "1970-1989",
+    "visualTone": "Ailerons et turbo",
+    "engine": "Atmosphérique puis turbo très puissant",
+    "aero": "Ailerons visibles, effet de sol, formes plus spécialisées",
+    "safety": "Sécurité en progrès mais encore très perfectible",
+    "tyres": "Pneus larges, appui en forte hausse",
+    "regulation": "Premières grandes réactions aux excès techniques",
+    "beginnerSummary": "La F1 découvre que l'air peut être aussi important que le moteur.",
+    "highlights": ["effet de sol", "turbo", "ailerons massifs"]
+  },
+  {
+    "id": "1990",
+    "name": "Années 1990",
+    "period": "1990-1999",
+    "visualTone": "Électronique et V10",
+    "engine": "V10 atmosphériques emblématiques",
+    "aero": "Aérodynamique plus fine et très intégrée",
+    "safety": "Renforcement majeur des protections et procédures",
+    "tyres": "Gestion du grip et du rythme de course",
+    "regulation": "Encadrement plus strict de certaines aides et dimensions",
+    "beginnerSummary": "La voiture devient une plateforme d'ingénierie complète, pas seulement un moteur rapide.",
+    "highlights": ["V10", "électronique", "sécurité renforcée"]
+  },
+  {
+    "id": "2000",
+    "name": "Années 2000",
+    "period": "2000-2009",
+    "visualTone": "Optimisation totale",
+    "engine": "Fin du V10 puis V8 atmosphérique",
+    "aero": "Multiplication des détails aérodynamiques",
+    "safety": "Cellules et crash-tests très structurants",
+    "tyres": "Pneus au coeur de la stratégie selon les périodes",
+    "regulation": "Recherche de réduction des coûts et d'équilibre sportif",
+    "beginnerSummary": "Chaque surface, chaque entrée d'air et chaque réglage devient une source de performance.",
+    "highlights": ["V10 puis V8", "aéro complexe", "stratégies pneus"]
+  },
+  {
+    "id": "2014-hybrid",
+    "name": "Années 2014+ hybride",
+    "period": "2014-2021",
+    "visualTone": "Efficacité énergétique",
+    "engine": "V6 turbo hybride avec récupération d'énergie",
+    "aero": "Aérodynamique très dépendante du fond plat et des flux latéraux",
+    "safety": "Halo et standards modernes",
+    "tyres": "Gestion thermique et relais stratégiques",
+    "regulation": "Unité de puissance très encadrée",
+    "beginnerSummary": "La performance vient autant de la gestion de l'énergie que du grip et de l'appui.",
+    "highlights": ["ERS", "V6 turbo", "halo"]
+  },
+  {
+    "id": "2022-ground-effect",
+    "name": "Années 2022+ effet de sol",
+    "period": "2022-aujourd'hui",
+    "visualTone": "Plancher dominant",
+    "engine": "V6 turbo hybride conservé",
+    "aero": "Retour d'un effet de sol encadré pour favoriser le suivi en piste",
+    "safety": "Sécurité moderne intégrée dès la conception",
+    "tyres": "Pneus et hauteur de caisse liés au comportement aéro",
+    "regulation": "Règles orientées vers la course rapprochée",
+    "beginnerSummary": "Le dessous de la voiture redevient une zone de performance majeure.",
+    "highlights": ["effet de sol", "suivi en piste", "plancher sensible"]
+  }
+]
+

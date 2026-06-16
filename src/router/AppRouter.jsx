@@ -5,9 +5,12 @@ import Home from '../pages/Home.jsx'
 import History from '../pages/History.jsx'
 import Engines from '../pages/Engines.jsx'
 import Components from '../pages/Components.jsx'
+import Teams from '../pages/Teams.jsx'
 import Aerodynamics from '../pages/Aerodynamics.jsx'
 import Tyres from '../pages/Tyres.jsx'
 import Regulations from '../pages/Regulations.jsx'
+import InteractiveCar from '../pages/InteractiveCar.jsx'
+import EraComparator from '../pages/EraComparator.jsx'
 import Glossary from '../pages/Glossary.jsx'
 import About from '../pages/About.jsx'
 
@@ -22,9 +25,12 @@ function AppRouter() {
             <Route path="/histoire" element={<History />} />
             <Route path="/moteurs" element={<Engines />} />
             <Route path="/composants" element={<Components />} />
+            <Route path="/ecuries" element={<Teams />} />
             <Route path="/aerodynamique" element={<Aerodynamics />} />
             <Route path="/pneus" element={<Tyres />} />
             <Route path="/reglements" element={<Regulations />} />
+            <Route path="/monoplace-interactive" element={<InteractiveCar />} />
+            <Route path="/comparateur-epoques" element={<EraComparator />} />
             <Route path="/glossaire" element={<Glossary />} />
             <Route path="/sources" element={<About />} />
             <Route path="*" element={<Navigate to="/" replace />} />
@@ -37,4 +43,3 @@ function AppRouter() {
 }
 
 export default AppRouter
-
