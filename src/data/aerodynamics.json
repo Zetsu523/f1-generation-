@@ -1,0 +1,45 @@
+[
+  {
+    "id": "downforce",
+    "name": "Appui aérodynamique",
+    "category": "Fondamental",
+    "description": "L'appui pousse la voiture vers la piste. Plus il est stable, plus le pilote peut passer vite en virage.",
+    "beginnerTip": "Imagine une main invisible qui appuie sur la voiture sans ajouter beaucoup de poids."
+  },
+  {
+    "id": "drag",
+    "name": "Traînée",
+    "category": "Compromis",
+    "description": "La traînée est la résistance de l'air. Elle ralentit la voiture en ligne droite.",
+    "beginnerTip": "Une voiture très appuyée tourne mieux, mais peut perdre de la vitesse de pointe."
+  },
+  {
+    "id": "ground-effect",
+    "name": "Effet de sol",
+    "category": "Plancher",
+    "description": "Le dessous de la voiture accélère l'air et crée une zone de basse pression qui aspire la monoplace vers la piste.",
+    "beginnerTip": "C'est une grande partie de l'appui moderne, moins visible que les ailerons."
+  },
+  {
+    "id": "diffuser-flow",
+    "name": "Diffuseur",
+    "category": "Plancher",
+    "description": "Le diffuseur organise la sortie de l'air sous la voiture pour rendre l'effet de sol plus efficace.",
+    "beginnerTip": "Il travaille surtout à l'arrière, là où l'air quitte le plancher."
+  },
+  {
+    "id": "drs",
+    "name": "DRS",
+    "category": "Dépassement",
+    "description": "Le DRS ouvre une partie de l'aileron arrière dans certaines zones afin de réduire la traînée.",
+    "beginnerTip": "Il aide à dépasser en ligne droite, mais il n'est pas disponible partout."
+  },
+  {
+    "id": "dirty-air",
+    "name": "Air perturbé",
+    "category": "Course",
+    "description": "Une voiture laisse derrière elle un air moins propre qui peut réduire l'appui de celle qui la suit.",
+    "beginnerTip": "C'est l'une des raisons pour lesquelles suivre de très près peut user les pneus."
+  }
+]
+

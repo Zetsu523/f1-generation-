@@ -1,0 +1,52 @@
+[
+  {
+    "id": "technical-box",
+    "name": "Boîte réglementaire",
+    "category": "Conception",
+    "description": "Les règlements définissent les volumes, zones et principes dans lesquels les ingénieurs peuvent dessiner la voiture.",
+    "whyItMatters": "La créativité existe, mais elle se joue dans un cadre très précis."
+  },
+  {
+    "id": "safety",
+    "name": "Sécurité",
+    "category": "Pilote",
+    "description": "La cellule de survie, les crash-tests, le halo et les structures absorbantes limitent les conséquences d'un accident.",
+    "whyItMatters": "Une F1 moderne doit être rapide et protéger le pilote dans des scénarios extrêmes."
+  },
+  {
+    "id": "power-unit",
+    "name": "Unité de puissance",
+    "category": "Moteur",
+    "description": "Les règlements encadrent l'architecture moteur, l'hybridation, l'énergie utilisée et certaines limites d'exploitation.",
+    "whyItMatters": "Ils orientent la recherche vers l'efficacité, la fiabilité et la maîtrise de l'énergie."
+  },
+  {
+    "id": "aero",
+    "name": "Aérodynamique",
+    "category": "Performance",
+    "description": "Les surfaces autorisées, les dimensions et les zones sensibles guident la façon de produire de l'appui.",
+    "whyItMatters": "Un changement aérodynamique peut modifier le comportement en virage et la facilité à suivre une autre voiture."
+  },
+  {
+    "id": "tyres",
+    "name": "Pneus",
+    "category": "Course",
+    "description": "Les règles sportives et techniques encadrent les pneus disponibles, leur utilisation et les obligations selon les courses.",
+    "whyItMatters": "Elles créent une dimension stratégique visible pour les spectateurs."
+  },
+  {
+    "id": "parc-ferme",
+    "name": "Parc fermé",
+    "category": "Exploitation",
+    "description": "Après certaines séances, les modifications possibles sur les voitures sont limitées.",
+    "whyItMatters": "Les équipes doivent choisir un compromis de réglage avant de connaître toutes les conditions de course."
+  },
+  {
+    "id": "cost-cap",
+    "name": "Plafond budgétaire",
+    "category": "Équilibre sportif",
+    "description": "La discipline limite certaines dépenses afin de rapprocher les moyens des équipes.",
+    "whyItMatters": "Le défi devient autant organisationnel que technique."
+  }
+]
+

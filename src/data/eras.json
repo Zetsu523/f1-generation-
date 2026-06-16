@@ -1,0 +1,67 @@
+[
+  {
+    "id": "1950-1960",
+    "title": "Naissance du championnat moderne",
+    "period": "1950-1960",
+    "description": "La Formule 1 devient un championnat du monde. Les voitures restent proches des Grand Prix d'avant-guerre, avec une sécurité encore très limitée.",
+    "highlights": ["Moteurs avant", "Circuits routiers", "Protection minimale"],
+    "sources": ["formula1-results-1950"]
+  },
+  {
+    "id": "1960-1970",
+    "title": "Révolution du moteur arrière",
+    "period": "années 1960",
+    "description": "Le moteur placé derrière le pilote s'impose. Les monoplaces deviennent plus compactes et plus efficaces dans les virages.",
+    "highlights": ["Moteur arrière", "Châssis plus légers", "Premiers vrais gains aérodynamiques"],
+    "sources": ["formula1-history"]
+  },
+  {
+    "id": "1970-1980",
+    "title": "Aérodynamique et sécurité",
+    "period": "années 1970",
+    "description": "Les ailerons, l'effet de sol et les premières grandes mesures de sécurité changent la façon de concevoir une F1.",
+    "highlights": ["Ailerons", "Effet de sol", "Cellules de survie mieux pensées"],
+    "sources": ["formula1-history"]
+  },
+  {
+    "id": "1980-1988",
+    "title": "Première grande ère turbo",
+    "period": "années 1980",
+    "description": "Les moteurs turbo apportent une puissance très élevée et demandent une gestion plus fine de la fiabilité, du carburant et de la motricité.",
+    "highlights": ["Turbo", "Gestion moteur", "Appui aérodynamique en hausse"],
+    "sources": ["formula1-history"]
+  },
+  {
+    "id": "1989-2005",
+    "title": "Ère atmosphérique moderne",
+    "period": "1989-2005",
+    "description": "Après la première période turbo, les moteurs atmosphériques deviennent la référence. Les V10 marquent fortement l'imaginaire par leur régime et leur son.",
+    "highlights": ["V10", "Électronique", "Aérodynamique de plus en plus fine"],
+    "sources": ["formula1-history"]
+  },
+  {
+    "id": "2006-2013",
+    "title": "Standardisation et recherche d'efficacité",
+    "period": "2006-2013",
+    "description": "La F1 encadre davantage les moteurs et introduit des solutions de récupération d'énergie, tout en renforçant la sécurité et le contrôle des coûts.",
+    "highlights": ["V8", "KERS", "Pneus stratégiques"],
+    "sources": ["formula1-history"]
+  },
+  {
+    "id": "2014-2025",
+    "title": "Hybridation turbo",
+    "period": "2014-2025",
+    "description": "Les groupes propulseurs V6 turbo hybrides associent moteur thermique, turbo et récupération d'énergie. La performance dépend autant de l'efficacité que de la puissance.",
+    "highlights": ["V6 turbo hybride", "ERS", "Gestion énergétique"],
+    "sources": ["fia-regulations"]
+  },
+  {
+    "id": "2026",
+    "title": "Nouvelle génération technique",
+    "period": "à partir de 2026",
+    "description": "La réglementation 2026 fait évoluer l'aérodynamique et les groupes propulseurs pour rééquilibrer efficacité, spectacle et objectifs environnementaux.",
+    "highlights": ["Règlement 2026", "Aéro active", "Unité de puissance révisée"],
+    "sources": ["fia-2026-technical"]
+  }
+]
+

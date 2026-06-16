@@ -1,0 +1,58 @@
+[
+  {
+    "id": "atmo-classique",
+    "name": "Moteurs atmosphériques classiques",
+    "period": "1950-1970",
+    "type": "Atmosphérique",
+    "architecture": "Variée selon les époques",
+    "energy": "Essence, sans récupération d'énergie",
+    "description": "Un moteur atmosphérique respire sans turbo. La performance vient surtout de la cylindrée autorisée, de la carburation, puis de la précision mécanique.",
+    "keyFeatures": ["Réponse directe", "Technologie mécanique visible", "Règlements moteurs changeants"],
+    "lesson": "La F1 commence comme un laboratoire mécanique avant de devenir un laboratoire d'aérodynamique."
+  },
+  {
+    "id": "turbo-1980",
+    "name": "Première ère turbo",
+    "period": "années 1980",
+    "type": "Turbo",
+    "architecture": "Petits moteurs suralimentés",
+    "energy": "Essence, pression de suralimentation élevée",
+    "description": "Le turbo comprime l'air entrant dans le moteur. Cela permet de produire plus de puissance, mais ajoute de la chaleur, du délai de réponse et de la complexité.",
+    "keyFeatures": ["Puissance très élevée", "Gestion thermique", "Fiabilité délicate"],
+    "lesson": "Plus de puissance ne suffit pas : il faut aussi la rendre exploitable."
+  },
+  {
+    "id": "v10",
+    "name": "Moteurs V10",
+    "period": "années 1990-2005",
+    "type": "Atmosphérique",
+    "architecture": "V10 haut régime",
+    "energy": "Essence, sans hybridation",
+    "description": "Le V10 devient l'icône sonore de la F1 moderne. Il combine compacité, régime élevé et forte puissance sans système hybride.",
+    "keyFeatures": ["Son aigu", "Régime élevé", "Recherche de légèreté"],
+    "lesson": "L'équilibre entre puissance, poids et intégration dans le châssis devient central."
+  },
+  {
+    "id": "v8",
+    "name": "Moteurs V8",
+    "period": "2006-2013",
+    "type": "Atmosphérique",
+    "architecture": "V8 réglementé",
+    "energy": "Essence, KERS sur une partie de la période",
+    "description": "Les V8 arrivent avec un cadre technique plus strict. La performance se joue davantage sur l'aérodynamique, l'exploitation des pneus et l'intégration globale.",
+    "keyFeatures": ["Cadre moteur resserré", "KERS", "Stratégie pneus plus visible"],
+    "lesson": "Quand le moteur est plus encadré, chaque détail autour de la voiture prend plus d'importance."
+  },
+  {
+    "id": "v6-hybride",
+    "name": "V6 turbo hybride",
+    "period": "2014-aujourd'hui",
+    "type": "Turbo hybride",
+    "architecture": "V6 turbo avec ERS",
+    "energy": "Essence et énergie électrique récupérée",
+    "description": "Le groupe propulseur moderne récupère de l'énergie au freinage et via le turbo. Le pilote et l'équipe doivent gérer la puissance thermique et électrique.",
+    "keyFeatures": ["ERS", "Turbo", "Efficacité énergétique"],
+    "lesson": "La performance moderne dépend de la conversion et de la gestion de l'énergie, pas seulement de la puissance brute."
+  }
+]
+

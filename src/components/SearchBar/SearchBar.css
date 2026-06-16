@@ -1,0 +1,26 @@
+.search-bar {
+  display: grid;
+  gap: 0.45rem;
+  max-width: 620px;
+}
+
+.search-bar__label {
+  color: var(--color-text);
+  font-weight: 800;
+}
+
+.search-bar input {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  color: var(--color-text);
+  font: inherit;
+  min-height: 48px;
+  padding: 0 1rem;
+}
+
+.search-bar input:focus {
+  border-color: var(--color-accent);
+  outline: 3px solid rgba(143, 211, 255, 0.18);
+}
+

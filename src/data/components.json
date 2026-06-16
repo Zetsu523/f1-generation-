@@ -1,0 +1,99 @@
+[
+  {
+    "id": "chassis",
+    "name": "Châssis",
+    "category": "Structure",
+    "role": "Porte la voiture et relie les principaux organes mécaniques.",
+    "simpleExplanation": "C'est le squelette de la monoplace.",
+    "performanceImportance": "Il doit être rigide, léger et précis pour que les réglages fonctionnent."
+  },
+  {
+    "id": "monocoque",
+    "name": "Monocoque",
+    "category": "Sécurité",
+    "role": "Protège le pilote dans une cellule de survie très résistante.",
+    "simpleExplanation": "C'est la coque centrale dans laquelle le pilote est assis.",
+    "performanceImportance": "Elle doit protéger sans pénaliser le poids ni l'intégration aérodynamique."
+  },
+  {
+    "id": "front-wing",
+    "name": "Aileron avant",
+    "category": "Aérodynamique",
+    "role": "Dirige l'air vers le reste de la voiture et génère de l'appui à l'avant.",
+    "simpleExplanation": "Il aide les roues avant à accrocher la piste en virage.",
+    "performanceImportance": "Une petite variation peut changer l'équilibre complet de la voiture."
+  },
+  {
+    "id": "rear-wing",
+    "name": "Aileron arrière",
+    "category": "Aérodynamique",
+    "role": "Crée de l'appui à l'arrière et peut réduire la traînée avec le DRS.",
+    "simpleExplanation": "Il stabilise l'arrière dans les virages rapides.",
+    "performanceImportance": "Il influence fortement la vitesse de pointe et la confiance du pilote."
+  },
+  {
+    "id": "floor",
+    "name": "Plancher",
+    "category": "Aérodynamique",
+    "role": "Exploite l'air qui passe sous la voiture pour créer de l'appui.",
+    "simpleExplanation": "Il fait travailler le dessous de la voiture comme une aile inversée.",
+    "performanceImportance": "C'est une zone majeure de performance sur les F1 modernes."
+  },
+  {
+    "id": "diffuser",
+    "name": "Diffuseur",
+    "category": "Aérodynamique",
+    "role": "Aide l'air sous la voiture à se détendre à l'arrière.",
+    "simpleExplanation": "Il aide la voiture à rester collée à la piste.",
+    "performanceImportance": "Il rend l'appui du plancher plus stable et plus efficace."
+  },
+  {
+    "id": "suspension",
+    "name": "Suspension",
+    "category": "Mécanique",
+    "role": "Maintient les pneus en contact avec la piste et contrôle les mouvements de caisse.",
+    "simpleExplanation": "Elle relie les roues à la voiture tout en absorbant les bosses.",
+    "performanceImportance": "Elle conditionne l'usure des pneus et la stabilité aérodynamique."
+  },
+  {
+    "id": "brakes",
+    "name": "Freins carbone",
+    "category": "Mécanique",
+    "role": "Ralentissent la voiture avec une très forte résistance à la chaleur.",
+    "simpleExplanation": "Ils transforment la vitesse en chaleur pour freiner très fort.",
+    "performanceImportance": "Ils permettent de freiner tard, mais doivent rester dans leur bonne fenêtre de température."
+  },
+  {
+    "id": "tyres",
+    "name": "Pneus",
+    "category": "Contact piste",
+    "role": "Transmettent accélération, freinage et forces latérales au sol.",
+    "simpleExplanation": "Ce sont les quatre seuls points de contact avec la piste.",
+    "performanceImportance": "La stratégie et le rythme dépendent beaucoup de leur température et de leur usure."
+  },
+  {
+    "id": "steering-wheel",
+    "name": "Volant",
+    "category": "Pilotage",
+    "role": "Regroupe direction, réglages moteur, commandes radio et informations de course.",
+    "simpleExplanation": "C'est le poste de contrôle du pilote.",
+    "performanceImportance": "Il permet d'ajuster la voiture sans rentrer aux stands."
+  },
+  {
+    "id": "gearbox",
+    "name": "Boîte de vitesses",
+    "category": "Transmission",
+    "role": "Transmet la puissance du moteur aux roues arrière.",
+    "simpleExplanation": "Elle choisit le bon rapport pour accélérer efficacement.",
+    "performanceImportance": "Son intégration influence la fiabilité, le poids et l'aérodynamique arrière."
+  },
+  {
+    "id": "ers",
+    "name": "ERS",
+    "category": "Hybridation",
+    "role": "Récupère et redéploie de l'énergie électrique.",
+    "simpleExplanation": "Il transforme une partie de l'énergie perdue en puissance utile.",
+    "performanceImportance": "Il influence les dépassements, la défense et la gestion d'un tour."
+  }
+]
+

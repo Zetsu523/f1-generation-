@@ -1,0 +1,33 @@
+.page-title {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 920px;
+  padding: clamp(2.5rem, 7vw, 5.5rem) var(--space-page) clamp(1.5rem, 4vw, 3rem);
+}
+
+.page-title__eyebrow {
+  color: var(--color-primary-soft);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.page-title h1 {
+  color: var(--color-text);
+  font-size: clamp(2.2rem, 6vw, 4.8rem);
+  line-height: 0.98;
+  margin: 0;
+  max-width: 12ch;
+}
+
+.page-title__description {
+  color: var(--color-muted);
+  font-size: clamp(1.02rem, 2vw, 1.18rem);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 760px;
+}
+
