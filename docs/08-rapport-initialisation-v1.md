@@ -2,6 +2,8 @@
 
 Date : 16 juin 2026
 
+Note : ce rapport couvre uniquement l'initialisation V1 du projet. Les ajouts realises ensuite, notamment les visuels interactifs, la page ecuries, les photos, les donnees enrichies et la publication GitHub Pages, sont decrits dans `docs/09-rapport-v2-visuels-interactifs.md`.
+
 ## 1. Objectif de l'intervention
 
 L'objectif etait de transformer le depot, qui contenait uniquement les documents de conception, en une premiere version fonctionnelle d'un site React educatif sur la Formule 1.
@@ -358,4 +360,3 @@ Les ameliorations recommandees pour la suite sont :
 - Aucune cle API ou donnee privee n'a ete ajoutee.
 - Les fichiers de conception existants ont ete conserves.
 - Le projet reste statique et compatible GitHub Pages.
-

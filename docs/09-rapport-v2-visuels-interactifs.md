@@ -1,46 +1,90 @@
-# Rapport V2 - Visuels interactifs et pédagogie
+# Rapport V2 - Visuels interactifs, contenus enrichis et publication
 
-Date : 16 juin 2026
+Date : 17 juin 2026
 
 ## 1. Objectif de la V2
 
-La V2 vise à rendre le site F1 Knowledge Hub plus visuel et plus pédagogique. La V1 fonctionnait déjà, mais plusieurs pages reposaient surtout sur des blocs de texte. Cette évolution ajoute des schémas, des faits rapides, une monoplace interactive, un comparateur d'époques et un mini quiz.
+L'objectif de la V2 etait de rendre F1 Knowledge Hub plus visuel, plus interactif et plus complet.
 
-## 2. Contraintes respectées
+La V1 contenait deja la base React, les routes principales, les donnees JSON et le design general. La V2 ajoute :
 
-- React JavaScript avec Vite.
-- Conservation de `HashRouter` pour GitHub Pages.
-- Aucun backend.
-- Aucune dépendance supplémentaire.
-- Contenu en français.
-- Design sombre, sportif, moderne et responsive.
-- Aucun document de conception supprimé.
-- Aucun commit et aucun push effectués pendant cette intervention.
+- des parcours plus visuels ;
+- une monoplace interactive basee sur une vraie photo ;
+- une page ecuries ;
+- des fiches de grands pilotes ;
+- une section sur les crashs marquants et les progres de securite ;
+- des visuels pour le glossaire et les equipes ;
+- des photos documentees pour plusieurs pages ;
+- des donnees JSON enrichies ;
+- la publication effective sur GitHub Pages.
 
-## 3. Nouveaux composants réutilisables
+## 2. Contraintes respectees
 
-Quatre composants ont été ajoutés :
+- Site React en JavaScript avec Vite.
+- Conservation de `HashRouter` pour eviter les erreurs 404 sur GitHub Pages.
+- Projet statique, sans backend.
+- Aucune cle API, aucun mot de passe et aucune donnee privee ajoutes.
+- Aucune API payante ou necessitant un secret.
+- Donnees pedagogiques placees dans `src/data/`.
+- Contenu redige en francais.
+- Design sombre, sportif, premium et responsive.
+- Documents de conception conserves.
+- Build GitHub Pages verifie avant publication.
 
-- `VisualSection` : section en deux colonnes associant texte court, faits rapides et diagramme.
-- `QuickFact` : encart court pour mettre en avant une idée clé.
-- `TechDiagram` : diagrammes SVG génériques pour moteurs, aérodynamique, pneus, règlements, glossaire et comparaison.
-- `QuizCard` : mini quiz interactif avec état React, réponse sélectionnée et retour pédagogique.
+## 3. Pages et routes concernees
 
-Ces composants réduisent la densité textuelle et facilitent l'ajout de nouvelles explications visuelles.
+La navigation contient maintenant les routes suivantes :
 
-## 4. Nouvelles pages
+- `#/` : Accueil.
+- `#/histoire` : Histoire de la F1.
+- `#/moteurs` : Moteurs.
+- `#/composants` : Composants.
+- `#/ecuries` : Ecuries F1.
+- `#/aerodynamique` : Aerodynamique.
+- `#/pneus` : Pneus.
+- `#/reglements` : Reglements.
+- `#/monoplace-interactive` : Monoplace interactive.
+- `#/comparateur-epoques` : Comparateur d'epoques.
+- `#/glossaire` : Glossaire.
+- `#/sources` : A propos et sources.
 
-Deux pages ont été ajoutées :
+La route `#/ecuries` est maintenant presente dans le routeur et dans le menu.
 
-### Monoplace interactive
+## 4. Nouveaux composants reutilisables
 
-Route :
+Les composants V2 suivants sont disponibles dans `src/components/` :
 
-```txt
-#/monoplace-interactive
-```
+- `VisualSection` : section pedagogique avec texte, faits rapides et visuel.
+- `QuickFact` : encart court pour mettre en avant une idee cle.
+- `TechDiagram` : diagrammes techniques reutilisables.
+- `QuizCard` : mini quiz interactif avec etat React.
+- `PhotoMedia` : bloc image avec credit, position d'image et fallback simple.
+- `TeamVisual` : visuel d'identite pour les fiches d'ecuries.
+- `GlossaryVisual` : visuel compact associe aux termes du glossaire.
 
-La page affiche une F1 générique en SVG avec des zones sélectionnables :
+Ces composants permettent de reduire la densite de texte et de rendre les explications plus lisibles.
+
+## 5. Monoplace interactive
+
+La page `#/monoplace-interactive` a ete enrichie avec une vraie photo de monoplace.
+
+Fichiers principaux :
+
+- `src/pages/InteractiveCar.jsx`
+- `src/pages/InteractiveCar.css`
+- `src/data/interactiveParts.json`
+- `src/data/interactiveCarImage.json`
+
+La page contient :
+
+- une image reelle d'une Ferrari SF21 vue de cote ;
+- des marqueurs cliquables places sur la voiture ;
+- une liste de zones selectionnables ;
+- un panneau descriptif mis a jour avec `useState` et `useMemo` ;
+- des informations sur le role technique de chaque zone ;
+- des credits image dans les donnees JSON.
+
+Zones couvertes :
 
 - aileron avant ;
 - cockpit ;
@@ -50,98 +94,211 @@ La page affiche une F1 générique en SVG avec des zones sélectionnables :
 - pontons ;
 - fond plat ;
 - diffuseur ;
-- aileron arrière ;
-- unité de puissance.
+- aileron arriere ;
+- unite de puissance.
 
-Chaque zone affiche une catégorie, un rôle, une idée à retenir et un signal de performance.
+## 6. Page Histoire enrichie
 
-### Comparateur d'époques
+La page Histoire propose maintenant trois parcours :
 
-Route :
+- Histoire de la F1 ;
+- Grands pilotes ;
+- Grands crashs.
 
-```txt
-#/comparateur-epoques
-```
+Fichiers principaux :
 
-La page permet de comparer deux générations de F1 parmi :
+- `src/pages/History.jsx`
+- `src/pages/History.css`
+- `src/data/eras.json`
+- `src/data/legendDrivers.json`
+- `src/data/historicCrashes.json`
 
-- années 1950-1960 ;
-- années 1970-1980 ;
-- années 1990 ;
-- années 2000 ;
-- années 2014+ hybride ;
-- années 2022+ effet de sol.
+Ajouts realises :
 
-La comparaison couvre :
+- choix de parcours avec boutons accessibles ;
+- cartes pour les pilotes legendaires ;
+- photos de pilotes quand elles sont disponibles ;
+- fallback par initiales quand une photo ne charge pas ;
+- fiches sur des accidents marquants ;
+- explication de l'impact de ces accidents sur la securite ;
+- utilisation de `PhotoMedia` pour afficher les images et credits ;
+- mise en page responsive dediee.
 
-- moteur ;
-- aérodynamique ;
-- sécurité ;
-- pneus ;
-- règlement.
+## 7. Page Ecuries ajoutee et enrichie
 
-## 5. Nouvelles données
+La page `#/ecuries` est maintenant integree au site.
 
-Les données V2 ont été séparées dans `src/data/` :
+Fichiers principaux :
 
-- `interactiveParts.json` : zones de la monoplace interactive.
-- `eraComparisons.json` : données du comparateur d'époques.
-- `quickFacts.json` : faits rapides affichés sur les pages.
-- `quizQuestions.json` : questions du mini quiz.
+- `src/pages/Teams.jsx`
+- `src/pages/Teams.css`
+- `src/components/TeamVisual/TeamVisual.jsx`
+- `src/components/TeamVisual/TeamVisual.css`
+- `src/data/teams.json`
 
-## 6. Pages améliorées
+La page contient :
 
-Les pages suivantes ont été enrichies avec des éléments plus visuels :
+- une introduction pedagogique sur le role d'une ecurie ;
+- des fiches rapides par equipe ;
+- pays, annee de creation, identite, pilotes, forces et voitures marquantes ;
+- un visuel par ecurie ;
+- deux faits rapides sur le developpement et la strategie ;
+- une grille responsive en deux colonnes sur desktop et une colonne sur mobile.
 
-- Accueil : ajout d'une section visuelle, nouveaux accès vers la monoplace et le comparateur, mini quiz.
-- Histoire : ajout d'un diagramme de comparaison et de faits rapides.
-- Moteurs et évolution : ajout d'un schéma de groupe propulseur hybride.
-- Composants : ajout d'une section visuelle sur la logique système d'une F1.
-- Aérodynamique : remplacement du bloc principal par un diagramme SVG réutilisable.
-- Pneus et stratégie : ajout d'un schéma sur les composés et le relais.
-- Règlements techniques : ajout d'un diagramme de zones réglementaires.
-- Glossaire : ajout d'une carte visuelle du vocabulaire et d'un filtre par catégorie.
+Les pilotes affiches dans les donnees ont ete prevus comme reperes de grille 2026.
 
-## 7. Navigation
+## 8. Glossaire ameliore
 
-Le menu principal contient désormais deux nouvelles entrées :
+La page Glossaire conserve la recherche instantanee et ajoute :
 
-- `Monoplace`
-- `Comparateur`
+- un filtre par categorie ;
+- un visuel par terme via `GlossaryVisual` ;
+- une section introductive `VisualSection` ;
+- des faits rapides issus de `quickFacts.json`.
 
-Le header a été légèrement ajusté pour mieux accueillir les liens supplémentaires.
+Fichiers principaux :
 
-## 8. Accessibilité et responsive
+- `src/pages/Glossary.jsx`
+- `src/components/GlossaryVisual/GlossaryVisual.jsx`
+- `src/components/GlossaryVisual/GlossaryVisual.css`
+- `src/data/glossary.json`
+- `src/data/quickFacts.json`
 
-Les ajouts utilisent :
+## 9. Pages techniques ameliorees
 
-- des boutons pour les zones interactives ;
-- `aria-pressed` pour signaler les sélections ;
-- des libellés accessibles sur les schémas SVG ;
-- des grilles qui passent en une colonne sur mobile ;
-- des tableaux et comparaisons lisibles sur petits écrans.
+Plusieurs pages de la V1 ont ete enrichies :
 
-## 9. Vérifications
+- Accueil : ajout d'une section visuelle, de liens vers la monoplace et le comparateur, et d'un mini quiz.
+- Moteurs : ajout d'une section visuelle sur le groupe propulseur.
+- Composants : ajout de photos et de visuels explicatifs.
+- Aerodynamique : ajout d'une section diagrammee.
+- Pneus : ajout de photos et d'explications visuelles.
+- Reglements : ajout de photos et d'une lecture plus visuelle des contraintes.
+- Comparateur d'epoques : comparaison de generations de F1 par moteur, aero, securite, pneus et reglement.
 
-Un build intermédiaire a été lancé avec succès pendant l'implémentation :
+## 10. Donnees ajoutees ou enrichies
+
+Les fichiers de donnees suivants ont ete ajoutes ou modifies :
+
+- `src/data/components.json`
+- `src/data/glossary.json`
+- `src/data/historicCrashes.json`
+- `src/data/interactiveCarImage.json`
+- `src/data/interactiveParts.json`
+- `src/data/quizQuestions.json`
+- `src/data/regulations.json`
+- `src/data/sources.json`
+- `src/data/teams.json`
+- `src/data/tyres.json`
+- `src/data/legendDrivers.json`
+- `src/data/eraComparisons.json`
+- `src/data/quickFacts.json`
+
+Les sources et credits image ont ete places dans les donnees lorsque les informations etaient precises.
+
+## 11. Styles et responsive
+
+Les styles ont ete ajustes pour :
+
+- ameliorer les grilles responsives ;
+- afficher les cartes d'ecuries correctement ;
+- rendre la monoplace interactive utilisable sur mobile ;
+- encadrer les images avec credits ;
+- rendre les cartes Histoire plus lisibles ;
+- ajouter des variations visuelles sans casser le theme sombre ;
+- garder les tableaux et cartes lisibles sur petits ecrans.
+
+Fichiers principaux :
+
+- `src/styles/global.css`
+- `src/styles/variables.css`
+- `src/pages/History.css`
+- `src/pages/InteractiveCar.css`
+- `src/pages/Teams.css`
+- styles des composants V2.
+
+## 12. Verification locale
+
+Avant publication, le build GitHub Pages a ete lance avec succes :
 
 ```bash
-npm.cmd run build
-```
-
-Les vérifications finales demandées sont :
-
-```bash
-npm.cmd run build
 npm.cmd run build:pages
 ```
 
-## 10. Prochaines étapes conseillées
+Resultat :
 
-- Ajouter des pages dédiées aux monoplaces mythiques et aux écuries.
-- Ajouter des schémas plus détaillés sur l'ERS, les freins carbone et les suspensions.
-- Ajouter plusieurs quiz courts par rubrique.
-- Ajouter un mode de comparaison plus avancé avec filtres par thème.
-- Vérifier visuellement le site sur mobile réel avant une nouvelle publication.
-- Mettre à jour le README avec les nouvelles routes lorsque la V2 sera validée.
+- build Vite termine correctement ;
+- `dist/index.html` genere ;
+- assets JS et CSS generes avec la base `/f1-generation-/`.
 
+Note Windows : PowerShell bloque l'execution directe de `npm.ps1` sur cette machine. Les commandes npm ont donc ete lancees avec `npm.cmd`.
+
+## 13. Publication GitHub Pages
+
+La V2 a ete committee et poussee sur GitHub.
+
+Commit de publication :
+
+```txt
+d7fbda5 Publie la v2 du site F1
+```
+
+Le push sur `main` a declenche le workflow :
+
+```txt
+.github/workflows/deploy.yml
+```
+
+Le workflow GitHub Actions s'est termine avec succes :
+
+```txt
+https://github.com/Zetsu523/f1-generation-/actions/runs/27704837418
+```
+
+Site publie :
+
+```txt
+https://zetsu523.github.io/f1-generation-/
+```
+
+Verification effectuee apres publication :
+
+- statut HTTP `200` sur l'URL publique ;
+- titre du site detecte ;
+- assets charges avec le prefixe `/f1-generation-/`.
+
+## 14. Fichiers crees pendant la V2 finale
+
+Composants :
+
+- `src/components/PhotoMedia/PhotoMedia.jsx`
+- `src/components/PhotoMedia/PhotoMedia.css`
+
+Donnees :
+
+- `src/data/historicCrashes.json`
+- `src/data/interactiveCarImage.json`
+
+Pages :
+
+- `src/pages/Teams.css`
+
+Ces fichiers s'ajoutent aux composants V2 deja presents : `VisualSection`, `QuickFact`, `TechDiagram`, `QuizCard`, `TeamVisual` et `GlossaryVisual`.
+
+## 15. Etat final du depot
+
+Apres publication :
+
+- la branche locale `main` est alignee avec `origin/main` ;
+- le depot local est propre ;
+- le site public est deploye ;
+- le workflow GitHub Actions de deploiement est passe en succes.
+
+## 16. Prochaines etapes conseillees
+
+- Ajouter une vraie page `Monoplaces mythiques` avec `cars.json`.
+- Completer les sources historiques entree par entree.
+- Ajouter des tests de rendu ou un lint si souhaite.
+- Verifier le rendu mobile sur plusieurs largeurs reelles.
+- Ajouter une page ou section qui explique les sources et licences image de facon plus detaillee.
+- Mettre a jour le README pour refleter toutes les routes disponibles.
