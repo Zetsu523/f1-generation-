@@ -29,6 +29,120 @@
   font-weight: 800;
 }
 
+.tech-diagram__engine-title {
+  font-size: 22px;
+  font-weight: 950;
+}
+
+.tech-diagram__engine-card {
+  fill: rgba(255, 255, 255, 0.055);
+  stroke-width: 3;
+}
+
+.tech-diagram__engine-card--red {
+  stroke: rgba(225, 6, 0, 0.72);
+}
+
+.tech-diagram__engine-card--blue {
+  stroke: rgba(143, 211, 255, 0.72);
+}
+
+.tech-diagram__engine-card--green {
+  stroke: rgba(67, 209, 138, 0.72);
+}
+
+.tech-diagram__engine-number {
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 2;
+}
+
+.tech-diagram__engine-number--red {
+  fill: rgba(225, 6, 0, 0.9);
+}
+
+.tech-diagram__engine-number--blue {
+  fill: rgba(37, 111, 153, 0.95);
+}
+
+.tech-diagram__engine-number--green {
+  fill: rgba(30, 122, 78, 0.95);
+}
+
+.tech-diagram__engine-number-text {
+  fill: #fff;
+  font-size: 18px;
+  font-weight: 950;
+}
+
+.tech-diagram__engine-label {
+  font-size: 20px;
+  font-weight: 950;
+}
+
+.tech-diagram__engine-small {
+  fill: var(--color-muted);
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.tech-diagram__engine-icon {
+  fill: rgba(245, 245, 245, 0.12);
+  stroke-width: 3;
+}
+
+.tech-diagram__engine-icon--red {
+  stroke: rgba(225, 6, 0, 0.86);
+}
+
+.tech-diagram__engine-icon-line,
+.tech-diagram__engine-loop,
+.tech-diagram__engine-boost,
+.tech-diagram__engine-arrow {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.tech-diagram__engine-icon-line {
+  stroke: rgba(225, 6, 0, 0.86);
+  stroke-width: 8;
+}
+
+.tech-diagram__engine-loop {
+  stroke: rgba(143, 211, 255, 0.88);
+  stroke-width: 8;
+}
+
+.tech-diagram__engine-bolt {
+  fill: rgba(248, 193, 74, 0.9);
+  stroke: rgba(255, 255, 255, 0.42);
+  stroke-width: 2;
+}
+
+.tech-diagram__engine-battery,
+.tech-diagram__engine-battery-tip {
+  fill: rgba(67, 209, 138, 0.2);
+  stroke: rgba(67, 209, 138, 0.88);
+  stroke-width: 4;
+}
+
+.tech-diagram__engine-boost {
+  stroke: rgba(67, 209, 138, 0.9);
+  stroke-width: 8;
+}
+
+.tech-diagram__engine-arrow {
+  stroke: rgba(255, 255, 255, 0.5);
+  stroke-width: 5;
+}
+
+.tech-diagram__engine-arrow-head {
+  fill: rgba(255, 255, 255, 0.5);
+}
+
+.tech-diagram__engine-arrow-head--green {
+  fill: rgba(67, 209, 138, 0.9);
+}
+
 .tech-diagram__panel {
   fill: rgba(255, 255, 255, 0.035);
   stroke: rgba(255, 255, 255, 0.12);
@@ -156,5 +270,20 @@
   .tech-diagram text {
     font-size: 20px;
   }
-}
 
+  .tech-diagram .tech-diagram__engine-title {
+    font-size: 19px;
+  }
+
+  .tech-diagram .tech-diagram__engine-label {
+    font-size: 18px;
+  }
+
+  .tech-diagram .tech-diagram__engine-small {
+    font-size: 12px;
+  }
+
+  .tech-diagram .tech-diagram__engine-number-text {
+    font-size: 16px;
+  }
+}

@@ -31,6 +31,137 @@
     ],
     "answerIndex": 0,
     "explanation": "L'ERS transforme une partie de l'énergie récupérable en puissance utilisable selon la stratégie de course."
+  },
+  {
+    "id": "front-wing-balance",
+    "question": "Quel rôle joue surtout l'aileron avant ?",
+    "options": [
+      "Il prépare le flux d'air et apporte du grip à l'avant.",
+      "Il stocke l'essence.",
+      "Il remplace la suspension avant."
+    ],
+    "answerIndex": 0,
+    "explanation": "L'aileron avant influence le grip de l'avant et l'air qui arrive sur le reste de la monoplace."
+  },
+  {
+    "id": "halo-safety",
+    "question": "À quoi sert le halo ?",
+    "options": [
+      "À décorer le cockpit.",
+      "À protéger la tête du pilote.",
+      "À refroidir les pneus."
+    ],
+    "answerIndex": 1,
+    "explanation": "Le halo est une structure de sécurité placée autour du cockpit pour mieux protéger le pilote."
+  },
+  {
+    "id": "undercut",
+    "question": "Qu'est-ce qu'un undercut ?",
+    "options": [
+      "S'arrêter plus tôt qu'un rival pour profiter de pneus frais.",
+      "Rouler volontairement plus lentement en ligne droite.",
+      "Changer d'aileron pendant le tour de formation."
+    ],
+    "answerIndex": 0,
+    "explanation": "L'undercut consiste à s'arrêter avant un adversaire pour tenter de gagner du temps avec des pneus plus performants."
+  },
+  {
+    "id": "floor-ground-effect",
+    "question": "Pourquoi le plancher est-il très important sur une F1 moderne ?",
+    "options": [
+      "Il sert uniquement à poser les pieds du pilote.",
+      "Il génère une grande partie de l'appui avec l'air sous la voiture.",
+      "Il remplace les pneus pluie."
+    ],
+    "answerIndex": 1,
+    "explanation": "Le flux d'air sous la voiture peut créer beaucoup d'appui, surtout avec les concepts modernes d'effet de sol."
+  },
+  {
+    "id": "diffuser",
+    "question": "Quel est le rôle du diffuseur ?",
+    "options": [
+      "Organiser la sortie de l'air sous la voiture à l'arrière.",
+      "Afficher les temps au tour au pilote.",
+      "Changer automatiquement les rapports de boîte."
+    ],
+    "answerIndex": 0,
+    "explanation": "Le diffuseur aide l'air du plancher à sortir proprement, ce qui rend l'appui plus efficace."
+  },
+  {
+    "id": "brakes-temperature",
+    "question": "Pourquoi la température des freins est-elle importante ?",
+    "options": [
+      "Parce que les freins doivent rester dans une bonne fenêtre de fonctionnement.",
+      "Parce qu'elle décide de la couleur de la voiture.",
+      "Parce qu'elle remplace la pression des pneus."
+    ],
+    "answerIndex": 0,
+    "explanation": "Des freins trop froids ou trop chauds peuvent perdre en efficacité et en constance."
+  },
+  {
+    "id": "monocoque",
+    "question": "Qu'est-ce que la monocoque ?",
+    "options": [
+      "La cellule centrale qui protège le pilote.",
+      "Un type de pneu utilisé sous la pluie.",
+      "Le nom d'une pénalité sportive."
+    ],
+    "answerIndex": 0,
+    "explanation": "La monocoque est la structure centrale très résistante autour du pilote."
+  },
+  {
+    "id": "wet-tyres",
+    "question": "Pourquoi utilise-t-on des pneus pluie ?",
+    "options": [
+      "Pour évacuer davantage d'eau grâce à des sculptures plus marquées.",
+      "Pour réduire volontairement la hauteur de caisse.",
+      "Pour supprimer le besoin de freiner."
+    ],
+    "answerIndex": 0,
+    "explanation": "Les pneus pluie possèdent des rainures capables d'évacuer beaucoup plus d'eau qu'un pneu slick."
+  },
+  {
+    "id": "slick-tyres",
+    "question": "Pourquoi les pneus slicks n'ont-ils pas de rainures ?",
+    "options": [
+      "Pour maximiser la surface de gomme en contact avec une piste sèche.",
+      "Pour mieux rouler dans l'eau profonde.",
+      "Pour rendre les arrêts au stand obligatoires."
+    ],
+    "answerIndex": 0,
+    "explanation": "Sur piste sèche, un slick offre une grande surface de contact et donc beaucoup de grip."
+  },
+  {
+    "id": "parc-ferme",
+    "question": "Que limite le parc fermé ?",
+    "options": [
+      "Les modifications possibles sur la voiture après certaines séances.",
+      "Le nombre de virages sur un circuit.",
+      "La vitesse maximale dans les stands uniquement."
+    ],
+    "answerIndex": 0,
+    "explanation": "Le parc fermé encadre ce que les équipes peuvent encore modifier, afin de préserver l'équité sportive."
+  },
+  {
+    "id": "engine-era",
+    "question": "Quelle idée résume l'ère hybride moderne ?",
+    "options": [
+      "Produire uniquement du bruit.",
+      "Associer moteur thermique, turbo et récupération d'énergie.",
+      "Supprimer complètement l'aérodynamique."
+    ],
+    "answerIndex": 1,
+    "explanation": "La F1 hybride combine puissance thermique et gestion très fine de l'énergie récupérée."
+  },
+  {
+    "id": "race-strategy",
+    "question": "Pourquoi la stratégie pneus peut-elle changer une course ?",
+    "options": [
+      "Parce qu'elle influence le rythme, les arrêts et le trafic.",
+      "Parce qu'elle détermine la nationalité du pilote.",
+      "Parce qu'elle remplace le règlement technique."
+    ],
+    "answerIndex": 0,
+    "explanation": "Le bon moment pour s'arrêter, le composé choisi et l'usure peuvent faire gagner ou perdre beaucoup de temps."
   }
 ]
-

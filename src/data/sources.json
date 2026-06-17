@@ -12,6 +12,66 @@
     "usage": "Contexte général sur l'histoire sportive et technique de la discipline."
   },
   {
+    "id": "formula1-safety-milestones",
+    "title": "Formula 1 - 5 crucial milestone moments in F1 safety technology",
+    "url": "https://www.formula1.com/en/latest/article/5-crucial-milestone-moments-in-f1-safety-technology.4rlVLaoq24DjmJKtusZ0tp",
+    "usage": "Repères pédagogiques sur les accidents et innovations de sécurité : Lauda, Imola 1994, Bianchi, Grosjean, monocoque, halo et équipements ignifugés."
+  },
+  {
+    "id": "formula1-vsc-2015",
+    "title": "Formula 1 - FIA clarifies new virtual safety car procedures",
+    "url": "https://www.formula1.com/en/latest/article/fia-clarifies-new-virtual-safety-car-procedures.3kAXqSlWzpv5DRXo8eW8Nf",
+    "usage": "Contexte sur l'introduction de la Virtual Safety Car après l'accident de Jules Bianchi."
+  },
+  {
+    "id": "formula1-imola-1994",
+    "title": "Formula 1 - Imola '94 and the lasting safety legacy",
+    "url": "https://www.formula1.com/en/latest/article/imola-94-and-the-legacy-of-improved-safety.5P8zqEzNjKzYw8qdckoYFF",
+    "usage": "Contexte sur le week-end d'Imola 1994 et les changements de sécurité qui ont suivi."
+  },
+  {
+    "id": "formula1-grosjean-medical",
+    "title": "Formula 1 - Medical Car team describe Grosjean crash response",
+    "url": "https://www.formula1.com/en/latest/article/crazy-ive-not-seen-fire-like-that-before-medical-car-team-describe-scene.5ICsLmBlqXDeoeqTMb9G15",
+    "usage": "Contexte sur l'accident de Romain Grosjean à Bahreïn et le rôle des secours."
+  },
+  {
+    "id": "formula1-donnelly-1990",
+    "title": "Formula 1 - Beyond The Grid: Martin Donnelly on his Jerez crash",
+    "url": "https://www.formula1.com/en/latest/article/beyond-the-grid-martin-donnelly-on-his-jerez-crash-racing-for-lotus-and.5uTImqlzWORKoKokrx9ayx",
+    "usage": "Contexte sur l'accident de Martin Donnelly à Jerez en 1990."
+  },
+  {
+    "id": "formula1-kubica-2007-video",
+    "title": "Formula 1 - From horror crash to victory: Robert Kubica's Canadian GP redemption",
+    "url": "https://www.formula1.com/en/video/from-horror-crash-to-victory-robert-kubicas-canadian-gp-redemption.6060941588001",
+    "usage": "Repère vidéo officiel sur le crash de Robert Kubica au Canada en 2007 et son retour victorieux en 2008."
+  },
+  {
+    "id": "formula1-webber-2010-video",
+    "title": "Formula 1 - Mark Webber's flying crash at the 2010 European Grand Prix",
+    "url": "https://www.facebook.com/Formula1/videos/mark-webbers-flying-crash-at-the-2010-european-grand-prix/1337030983635102/",
+    "usage": "Repère vidéo officiel Formula 1 sur l'accident aérien de Mark Webber à Valence en 2010."
+  },
+  {
+    "id": "guardian-alonso-2016",
+    "title": "The Guardian - Fernando Alonso walks away after massive Australian GP crash",
+    "url": "https://www.theguardian.com/sport/2016/mar/20/fernando-alonso-walks-away-unscathed-after-massive-formula-one-crash",
+    "usage": "Contexte sur l'accident de Fernando Alonso au Grand Prix d'Australie 2016."
+  },
+  {
+    "id": "autosport-villeneuve-1982",
+    "title": "Autosport - The loss of Gilles Villeneuve",
+    "url": "https://www.autosport.com/f1/news/autosport-75-the-loss-of-gilles-villeneuve/10717738/",
+    "usage": "Contexte historique sur l'accident de Gilles Villeneuve à Zolder en 1982."
+  },
+  {
+    "id": "atlasf1-peterson-1978",
+    "title": "Atlas F1 / Autosport - The Death of Ronnie Peterson",
+    "url": "https://atlasf1.autosport.com/2000/ita/preview/peterson.html",
+    "usage": "Contexte historique sur l'accident de Ronnie Peterson à Monza en 1978."
+  },
+  {
     "id": "formula1-hall-of-fame",
     "title": "Formula 1 - Hall of Fame",
     "url": "https://www.formula1.com/en/drivers/hall-of-fame",
@@ -40,6 +100,24 @@
     "title": "Formula 1 - F1 Teams 2026",
     "url": "https://www.formula1.com/en/teams",
     "usage": "Liste des écuries, pilotes et visuels publics associés à la saison 2026."
+  },
+  {
+    "id": "formula1-drivers-2026",
+    "title": "Formula 1 - F1 Drivers 2026",
+    "url": "https://www.formula1.com/en/drivers",
+    "usage": "Liste officielle des pilotes 2026 et portraits utilisés sur les fiches écuries."
+  },
+  {
+    "id": "wikimedia-commons-f1-images",
+    "title": "Wikimedia Commons - Images Formule 1",
+    "url": "https://commons.wikimedia.org/",
+    "usage": "Photos réelles utilisées pour illustrer les cartes des pages composants, histoire, glossaire, pneus, règlements et monoplace interactive, avec crédit affiché sur chaque image."
+  },
+  {
+    "id": "wikimedia-ferrari-sf21-sainz",
+    "title": "Wikimedia Commons - Ferrari SF21 de Carlos Sainz, Autriche 2021",
+    "url": "https://commons.wikimedia.org/wiki/File:FIA_F1_Austria_2021_Nr._55_Sainz_(side).jpg",
+    "usage": "Vraie photo de monoplace utilisée pour la page Monoplace interactive. Auteur : Lukas Raich, licence CC BY-SA 4.0."
   },
   {
     "id": "pirelli-2026",

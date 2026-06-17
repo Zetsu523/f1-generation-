@@ -5,7 +5,11 @@
     "category": "Structure",
     "role": "Porte la voiture et relie les principaux organes mécaniques.",
     "simpleExplanation": "C'est le squelette de la monoplace.",
-    "performanceImportance": "Il doit être rigide, léger et précis pour que les réglages fonctionnent."
+    "performanceImportance": "Il doit être rigide, léger et précis pour que les réglages fonctionnent.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/F1_Monocoque_Chassis_at_Formula_1_Exhibition%2C_London.jpg/1280px-F1_Monocoque_Chassis_at_Formula_1_Exhibition%2C_London.jpg",
+    "imageAlt": "Châssis monocoque carbone de Formule 1 exposé",
+    "imageCredit": "Photo : Hullian111 / Wikimedia Commons - CC BY-SA 4.0",
+    "imagePosition": "center"
   },
   {
     "id": "monocoque",
@@ -13,7 +17,11 @@
     "category": "Sécurité",
     "role": "Protège le pilote dans une cellule de survie très résistante.",
     "simpleExplanation": "C'est la coque centrale dans laquelle le pilote est assis.",
-    "performanceImportance": "Elle doit protéger sans pénaliser le poids ni l'intégration aérodynamique."
+    "performanceImportance": "Elle doit protéger sans pénaliser le poids ni l'intégration aérodynamique.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg/960px-2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg",
+    "imageAlt": "Cockpit, halo et cellule de survie d'une Williams FW43",
+    "imageCredit": "Photo : Artes Max / Adriel 00 / Wikimedia Commons",
+    "imagePosition": "center"
   },
   {
     "id": "front-wing",
@@ -21,7 +29,11 @@
     "category": "Aérodynamique",
     "role": "Dirige l'air vers le reste de la voiture et génère de l'appui à l'avant.",
     "simpleExplanation": "Il aide les roues avant à accrocher la piste en virage.",
-    "performanceImportance": "Une petite variation peut changer l'équilibre complet de la voiture."
+    "performanceImportance": "Une petite variation peut changer l'équilibre complet de la voiture.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/FIA_F1_Austria_2021_Nr._55_Sainz_%28side%29.jpg/1280px-FIA_F1_Austria_2021_Nr._55_Sainz_%28side%29.jpg",
+    "imageAlt": "Aileron avant d'une Ferrari SF21 en piste",
+    "imageCredit": "Photo : Lukas Raich / Wikimedia Commons - CC BY-SA 4.0",
+    "imagePosition": "10% 63%"
   },
   {
     "id": "rear-wing",
@@ -29,7 +41,11 @@
     "category": "Aérodynamique",
     "role": "Crée de l'appui à l'arrière et peut réduire la traînée avec le DRS.",
     "simpleExplanation": "Il stabilise l'arrière dans les virages rapides.",
-    "performanceImportance": "Il influence fortement la vitesse de pointe et la confiance du pilote."
+    "performanceImportance": "Il influence fortement la vitesse de pointe et la confiance du pilote.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg/960px-Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg",
+    "imageAlt": "Aileron arrière et système DRS d'une Formule 1 Mercedes",
+    "imageCredit": "Photo : Wikimedia Commons - CC BY-SA",
+    "imagePosition": "center"
   },
   {
     "id": "floor",
@@ -37,7 +53,11 @@
     "category": "Aérodynamique",
     "role": "Exploite l'air qui passe sous la voiture pour créer de l'appui.",
     "simpleExplanation": "Il fait travailler le dessous de la voiture comme une aile inversée.",
-    "performanceImportance": "C'est une zone majeure de performance sur les F1 modernes."
+    "performanceImportance": "C'est une zone majeure de performance sur les F1 modernes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Red_Bull_RB16B_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Red_Bull_RB16B_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Red Bull RB16B exposée avec la partie basse et le plancher visibles",
+    "imageCredit": "Photo : Hullian111 / Wikimedia Commons",
+    "imagePosition": "center 72%"
   },
   {
     "id": "diffuser",
@@ -45,7 +65,11 @@
     "category": "Aérodynamique",
     "role": "Aide l'air sous la voiture à se détendre à l'arrière.",
     "simpleExplanation": "Il aide la voiture à rester collée à la piste.",
-    "performanceImportance": "Il rend l'appui du plancher plus stable et plus efficace."
+    "performanceImportance": "Il rend l'appui du plancher plus stable et plus efficace.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Arrière d'une Lotus 72 exposée, utile pour observer la zone du diffuseur",
+    "imageCredit": "Photo : Hullian111 / Wikimedia Commons",
+    "imagePosition": "78% center"
   },
   {
     "id": "suspension",
@@ -53,7 +77,11 @@
     "category": "Mécanique",
     "role": "Maintient les pneus en contact avec la piste et contrôle les mouvements de caisse.",
     "simpleExplanation": "Elle relie les roues à la voiture tout en absorbant les bosses.",
-    "performanceImportance": "Elle conditionne l'usure des pneus et la stabilité aérodynamique."
+    "performanceImportance": "Elle conditionne l'usure des pneus et la stabilité aérodynamique.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Mercedes_F1_W03_front_suspension_2012_Malaysia.jpg",
+    "imageAlt": "Suspension avant d'une Mercedes F1 W03",
+    "imageCredit": "Photo : Morio / Wikimedia Commons - CC BY-SA 3.0",
+    "imagePosition": "center"
   },
   {
     "id": "brakes",
@@ -61,7 +89,11 @@
     "category": "Mécanique",
     "role": "Ralentissent la voiture avec une très forte résistance à la chaleur.",
     "simpleExplanation": "Ils transforment la vitesse en chaleur pour freiner très fort.",
-    "performanceImportance": "Ils permettent de freiner tard, mais doivent rester dans leur bonne fenêtre de température."
+    "performanceImportance": "Ils permettent de freiner tard, mais doivent rester dans leur bonne fenêtre de température.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Brake_disc_McLaren_F1.jpg",
+    "imageAlt": "Disque de frein carbone de Formule 1 McLaren",
+    "imageCredit": "Photo : Wikimedia Commons",
+    "imagePosition": "center"
   },
   {
     "id": "tyres",
@@ -69,7 +101,11 @@
     "category": "Contact piste",
     "role": "Transmettent accélération, freinage et forces latérales au sol.",
     "simpleExplanation": "Ce sont les quatre seuls points de contact avec la piste.",
-    "performanceImportance": "La stratégie et le rythme dépendent beaucoup de leur température et de leur usure."
+    "performanceImportance": "La stratégie et le rythme dépendent beaucoup de leur température et de leur usure.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Jeux de pneus Pirelli de Formule 1 exposés",
+    "imageCredit": "Photo : Wikimedia Commons",
+    "imagePosition": "center"
   },
   {
     "id": "steering-wheel",
@@ -77,7 +113,11 @@
     "category": "Pilotage",
     "role": "Regroupe direction, réglages moteur, commandes radio et informations de course.",
     "simpleExplanation": "C'est le poste de contrôle du pilote.",
-    "performanceImportance": "Il permet d'ajuster la voiture sans rentrer aux stands."
+    "performanceImportance": "Il permet d'ajuster la voiture sans rentrer aux stands.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Alpine_F1_steering_wheel.jpg",
+    "imageAlt": "Volant de Formule 1 Alpine avec écran et boutons",
+    "imageCredit": "Photo : Declan M Martin / Wikimedia Commons",
+    "imagePosition": "center"
   },
   {
     "id": "gearbox",
@@ -85,7 +125,11 @@
     "category": "Transmission",
     "role": "Transmet la puissance du moteur aux roues arrière.",
     "simpleExplanation": "Elle choisit le bon rapport pour accélérer efficacement.",
-    "performanceImportance": "Son intégration influence la fiabilité, le poids et l'aérodynamique arrière."
+    "performanceImportance": "Son intégration influence la fiabilité, le poids et l'aérodynamique arrière.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/F1_Gearbox.jpg/1280px-F1_Gearbox.jpg",
+    "imageAlt": "Boîte de vitesses d'une monoplace de Formule 1 Lotus T127",
+    "imageCredit": "Photo : John O'Nolan / Wikimedia Commons - CC BY 2.0",
+    "imagePosition": "center"
   },
   {
     "id": "ers",
@@ -93,7 +137,10 @@
     "category": "Hybridation",
     "role": "Récupère et redéploie de l'énergie électrique.",
     "simpleExplanation": "Il transforme une partie de l'énergie perdue en puissance utile.",
-    "performanceImportance": "Il influence les dépassements, la défense et la gestion d'un tour."
+    "performanceImportance": "Il influence les dépassements, la défense et la gestion d'un tour.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Honda_RA621H_engine.jpg/960px-Honda_RA621H_engine.jpg",
+    "imageAlt": "Unité de puissance Honda RA621H de Formule 1",
+    "imageCredit": "Photo : Wikimedia Commons",
+    "imagePosition": "center"
   }
 ]
-

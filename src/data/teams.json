@@ -6,6 +6,18 @@
     "country": "Royaume-Uni",
     "founded": "années 1960",
     "drivers": ["Lando Norris", "Oscar Piastri"],
+    "driverProfiles": [
+      {
+        "name": "Lando Norris",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mclaren/lannor01/2026mclarenlannor01right.webp",
+        "imageAlt": "Portrait officiel de Lando Norris, pilote McLaren 2026"
+      },
+      {
+        "name": "Oscar Piastri",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mclaren/oscpia01/2026mclarenoscpia01right.webp",
+        "imageAlt": "Portrait officiel d'Oscar Piastri, pilote McLaren 2026"
+      }
+    ],
     "identity": "Écurie reconnue pour son approche technique, ses innovations et plusieurs générations de monoplaces marquantes.",
     "strengths": ["Châssis", "Innovation", "Culture ingénieur"],
     "notableCars": ["MP4/4", "MP4-23", "MCL38"],
@@ -21,6 +33,18 @@
     "country": "Allemagne / Royaume-Uni",
     "founded": "retour constructeur moderne en 2010",
     "drivers": ["George Russell", "Kimi Antonelli"],
+    "driverProfiles": [
+      {
+        "name": "George Russell",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mercedes/georus01/2026mercedesgeorus01right.webp",
+        "imageAlt": "Portrait officiel de George Russell, pilote Mercedes 2026"
+      },
+      {
+        "name": "Kimi Antonelli",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/mercedes/andant01/2026mercedesandant01right.webp",
+        "imageAlt": "Portrait officiel de Kimi Antonelli, pilote Mercedes 2026"
+      }
+    ],
     "identity": "Écurie devenue dominante pendant l'ère hybride grâce à l'intégration moteur, châssis et organisation.",
     "strengths": ["Hybridation", "Organisation", "Exploitation course"],
     "notableCars": ["W05", "W11", "W12"],
@@ -36,6 +60,18 @@
     "country": "Italie",
     "founded": "1950 en championnat du monde",
     "drivers": ["Charles Leclerc", "Lewis Hamilton"],
+    "driverProfiles": [
+      {
+        "name": "Charles Leclerc",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/ferrari/chalec01/2026ferrarichalec01right.webp",
+        "imageAlt": "Portrait officiel de Charles Leclerc, pilote Ferrari 2026"
+      },
+      {
+        "name": "Lewis Hamilton",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/ferrari/lewham01/2026ferrarilewham01right.webp",
+        "imageAlt": "Portrait officiel de Lewis Hamilton, pilote Ferrari 2026"
+      }
+    ],
     "identity": "Écurie historique associée aux voitures rouges, à la passion populaire et à une présence continue en F1.",
     "strengths": ["Héritage", "Moteur", "Culture de la compétition"],
     "notableCars": ["312T", "F2004", "SF-26"],
@@ -51,6 +87,18 @@
     "country": "Autriche / Royaume-Uni",
     "founded": "2005",
     "drivers": ["Max Verstappen", "Isack Hadjar"],
+    "driverProfiles": [
+      {
+        "name": "Max Verstappen",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/redbullracing/maxver01/2026redbullracingmaxver01right.webp",
+        "imageAlt": "Portrait officiel de Max Verstappen, pilote Red Bull Racing 2026"
+      },
+      {
+        "name": "Isack Hadjar",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/redbullracing/isahad01/2026redbullracingisahad01right.webp",
+        "imageAlt": "Portrait officiel d'Isack Hadjar, pilote Red Bull Racing 2026"
+      }
+    ],
     "identity": "Écurie moderne connue pour son aérodynamique, son identité sportive forte et sa capacité à exploiter les règlements.",
     "strengths": ["Aérodynamique", "Stratégie", "Développement"],
     "notableCars": ["RB7", "RB9", "RB19"],
@@ -66,6 +114,18 @@
     "country": "Royaume-Uni",
     "founded": "années 1970",
     "drivers": ["Carlos Sainz", "Alexander Albon"],
+    "driverProfiles": [
+      {
+        "name": "Carlos Sainz",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/williams/carsai01/2026williamscarsai01right.webp",
+        "imageAlt": "Portrait officiel de Carlos Sainz, pilote Williams 2026"
+      },
+      {
+        "name": "Alexander Albon",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/williams/alealb01/2026williamsalealb01right.webp",
+        "imageAlt": "Portrait officiel d'Alexander Albon, pilote Williams 2026"
+      }
+    ],
     "identity": "Écurie indépendante devenue une référence historique grâce à des voitures efficaces et une forte culture de course.",
     "strengths": ["Efficacité", "Histoire", "Formation de talents"],
     "notableCars": ["FW14B", "FW18", "FW19"],
@@ -81,6 +141,18 @@
     "country": "Royaume-Uni",
     "founded": "retour moderne sous ce nom en 2021",
     "drivers": ["Fernando Alonso", "Lance Stroll"],
+    "driverProfiles": [
+      {
+        "name": "Fernando Alonso",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/astonmartin/feralo01/2026astonmartinferalo01right.webp",
+        "imageAlt": "Portrait officiel de Fernando Alonso, pilote Aston Martin 2026"
+      },
+      {
+        "name": "Lance Stroll",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/astonmartin/lanstr01/2026astonmartinlanstr01right.webp",
+        "imageAlt": "Portrait officiel de Lance Stroll, pilote Aston Martin 2026"
+      }
+    ],
     "identity": "Écurie construite autour d'une identité britannique premium, avec une forte ambition technique.",
     "strengths": ["Développement", "Infrastructure", "Expérience pilote"],
     "notableCars": ["AMR21", "AMR23", "AMR26"],
@@ -96,6 +168,18 @@
     "country": "Italie / Royaume-Uni",
     "founded": "structure issue de Minardi et Toro Rosso",
     "drivers": ["Liam Lawson", "Arvid Lindblad"],
+    "driverProfiles": [
+      {
+        "name": "Liam Lawson",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/racingbulls/lialaw01/2026racingbullslialaw01right.webp",
+        "imageAlt": "Portrait officiel de Liam Lawson, pilote Racing Bulls 2026"
+      },
+      {
+        "name": "Arvid Lindblad",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/racingbulls/arvlin01/2026racingbullsarvlin01right.webp",
+        "imageAlt": "Portrait officiel d'Arvid Lindblad, pilote Racing Bulls 2026"
+      }
+    ],
     "identity": "Écurie sœur de Red Bull, souvent utilisée pour développer des talents et tester des orientations techniques.",
     "strengths": ["Formation", "Agilité", "Lien Red Bull"],
     "notableCars": ["STR14", "AT01", "VCARB 01"],
@@ -111,6 +195,18 @@
     "country": "États-Unis",
     "founded": "2016 en F1",
     "drivers": ["Esteban Ocon", "Oliver Bearman"],
+    "driverProfiles": [
+      {
+        "name": "Esteban Ocon",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/haas/estoco01/2026haasestoco01right.webp",
+        "imageAlt": "Portrait officiel d'Esteban Ocon, pilote Haas F1 Team 2026"
+      },
+      {
+        "name": "Oliver Bearman",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/haas/olibea01/2026haasolibea01right.webp",
+        "imageAlt": "Portrait officiel d'Oliver Bearman, pilote Haas F1 Team 2026"
+      }
+    ],
     "identity": "Écurie américaine au modèle compact, axée sur l'efficacité opérationnelle et les partenariats techniques.",
     "strengths": ["Simplicité", "Réactivité", "Approche pragmatique"],
     "notableCars": ["VF-16", "VF-22", "VF-26"],
@@ -126,6 +222,18 @@
     "country": "France",
     "founded": "présence sous plusieurs identités Renault / Alpine",
     "drivers": ["Pierre Gasly", "Franco Colapinto"],
+    "driverProfiles": [
+      {
+        "name": "Pierre Gasly",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/alpine/piegas01/2026alpinepiegas01right.webp",
+        "imageAlt": "Portrait officiel de Pierre Gasly, pilote Alpine 2026"
+      },
+      {
+        "name": "Franco Colapinto",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/alpine/fracol01/2026alpinefracol01right.webp",
+        "imageAlt": "Portrait officiel de Franco Colapinto, pilote Alpine 2026"
+      }
+    ],
     "identity": "Projet français lié à l'histoire des moteurs turbo, aux titres constructeur et à une présence technique importante.",
     "strengths": ["Identité française", "Formation", "Culture moteur"],
     "notableCars": ["RS01", "R25", "A522"],
@@ -141,6 +249,18 @@
     "country": "Allemagne / Suisse",
     "founded": "arrivée comme équipe d'usine en 2026",
     "drivers": ["Nico Hülkenberg", "Gabriel Bortoleto"],
+    "driverProfiles": [
+      {
+        "name": "Nico Hülkenberg",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/audi/nichul01/2026audinichul01right.webp",
+        "imageAlt": "Portrait officiel de Nico Hülkenberg, pilote Audi 2026"
+      },
+      {
+        "name": "Gabriel Bortoleto",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/audi/gabbor01/2026audigabbor01right.webp",
+        "imageAlt": "Portrait officiel de Gabriel Bortoleto, pilote Audi 2026"
+      }
+    ],
     "identity": "Nouvelle équipe d'usine issue de Sauber, centrée sur le règlement moteur 2026 et l'intégration constructeur.",
     "strengths": ["Projet constructeur", "Moteur", "Développement long terme"],
     "notableCars": ["C44", "R26"],
@@ -156,6 +276,18 @@
     "country": "États-Unis",
     "founded": "début en F1 en 2026",
     "drivers": ["Sergio Perez", "Valtteri Bottas"],
+    "driverProfiles": [
+      {
+        "name": "Sergio Perez",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/cadillac/serper01/2026cadillacserper01right.webp",
+        "imageAlt": "Portrait officiel de Sergio Perez, pilote Cadillac 2026"
+      },
+      {
+        "name": "Valtteri Bottas",
+        "imageUrl": "https://media.formula1.com/image/upload/c_fill,w_720/q_auto/v1740000001/common/f1/2026/cadillac/valbot01/2026cadillacvalbot01right.webp",
+        "imageAlt": "Portrait officiel de Valtteri Bottas, pilote Cadillac 2026"
+      }
+    ],
     "identity": "Nouvelle écurie américaine qui élargit la grille et apporte une identité constructeur forte.",
     "strengths": ["Nouveau projet", "Expérience pilotes", "Ambition constructeur"],
     "notableCars": ["MAC-26"],

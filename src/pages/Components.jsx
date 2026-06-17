@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import Card from '../components/Card/Card.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import PhotoMedia from '../components/PhotoMedia/PhotoMedia.jsx'
 import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import components from '../data/components.json'
 
@@ -74,6 +75,15 @@ function Components() {
               title={component.name}
               description={component.simpleExplanation}
               items={[component.role, component.performanceImportance]}
+              media={
+                <PhotoMedia
+                  imageUrl={component.imageUrl}
+                  imageAlt={component.imageAlt}
+                  imageCredit={component.imageCredit}
+                  imagePosition={component.imagePosition}
+                  label={component.name}
+                />
+              }
             />
           ))}
         </div>

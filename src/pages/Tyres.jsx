@@ -1,6 +1,7 @@
 import Card from '../components/Card/Card.jsx'
 import ComparisonTable from '../components/ComparisonTable/ComparisonTable.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import PhotoMedia from '../components/PhotoMedia/PhotoMedia.jsx'
 import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import quickFacts from '../data/quickFacts.json'
 import tyres from '../data/tyres.json'
@@ -48,6 +49,14 @@ function Tyres() {
               title={tyre.name}
               description={tyre.description}
               items={[tyre.strategy]}
+              media={
+                <PhotoMedia
+                  imageUrl={tyre.imageUrl}
+                  imageAlt={tyre.imageAlt}
+                  imageCredit={tyre.imageCredit}
+                  label={tyre.name}
+                />
+              }
             />
           ))}
         </div>

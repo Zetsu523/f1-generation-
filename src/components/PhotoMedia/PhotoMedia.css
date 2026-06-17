@@ -1,4 +1,4 @@
-.glossary-visual {
+.photo-media {
   background: #101010;
   border-bottom: 1px solid var(--color-border);
   height: 178px;
@@ -7,10 +7,10 @@
   position: relative;
 }
 
-.glossary-visual::after {
+.photo-media::after {
   background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.5)),
-    linear-gradient(135deg, rgba(225, 6, 0, 0.12), transparent 45%);
+    linear-gradient(180deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.52)),
+    linear-gradient(135deg, rgba(225, 6, 0, 0.12), transparent 48%);
   bottom: 0;
   content: '';
   left: 0;
@@ -20,7 +20,7 @@
   top: 0;
 }
 
-.glossary-visual__image {
+.photo-media__image {
   display: block;
   height: 100%;
   object-fit: cover;
@@ -28,7 +28,7 @@
   width: 100%;
 }
 
-.glossary-visual figcaption {
+.photo-media figcaption {
   background: rgba(0, 0, 0, 0.58);
   border-radius: 8px 0 0 0;
   bottom: 0;
@@ -43,7 +43,7 @@
   z-index: 1;
 }
 
-.glossary-visual__fallback {
+.photo-media__fallback {
   align-items: center;
   background:
     radial-gradient(circle at 25% 25%, rgba(143, 211, 255, 0.18), transparent 30%),
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 720px) {
-  .glossary-visual {
+  .photo-media {
     height: 210px;
   }
 }

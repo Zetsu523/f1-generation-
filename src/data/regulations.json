@@ -4,49 +4,69 @@
     "name": "Boîte réglementaire",
     "category": "Conception",
     "description": "Les règlements définissent les volumes, zones et principes dans lesquels les ingénieurs peuvent dessiner la voiture.",
-    "whyItMatters": "La créativité existe, mais elle se joue dans un cadre très précis."
+    "whyItMatters": "La créativité existe, mais elle se joue dans un cadre très précis.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Red_Bull_RB16B_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Red_Bull_RB16B_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Monoplace Red Bull RB16B exposée",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "safety",
     "name": "Sécurité",
     "category": "Pilote",
     "description": "La cellule de survie, les crash-tests, le halo et les structures absorbantes limitent les conséquences d'un accident.",
-    "whyItMatters": "Une F1 moderne doit être rapide et protéger le pilote dans des scénarios extrêmes."
+    "whyItMatters": "Une F1 moderne doit être rapide et protéger le pilote dans des scénarios extrêmes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg/960px-2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg",
+    "imageAlt": "Cockpit et halo d'une Williams FW43 en essais",
+    "imageCredit": "Artes Max / Adriel 00 / Wikimedia Commons"
   },
   {
     "id": "power-unit",
     "name": "Unité de puissance",
     "category": "Moteur",
     "description": "Les règlements encadrent l'architecture moteur, l'hybridation, l'énergie utilisée et certaines limites d'exploitation.",
-    "whyItMatters": "Ils orientent la recherche vers l'efficacité, la fiabilité et la maîtrise de l'énergie."
+    "whyItMatters": "Ils orientent la recherche vers l'efficacité, la fiabilité et la maîtrise de l'énergie.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Honda_RA621H_engine.jpg/960px-Honda_RA621H_engine.jpg",
+    "imageAlt": "Moteur Honda RA621H de Formule 1",
+    "imageCredit": "Liauzh / Wikimedia Commons"
   },
   {
     "id": "aero",
     "name": "Aérodynamique",
     "category": "Performance",
     "description": "Les surfaces autorisées, les dimensions et les zones sensibles guident la façon de produire de l'appui.",
-    "whyItMatters": "Un changement aérodynamique peut modifier le comportement en virage et la facilité à suivre une autre voiture."
+    "whyItMatters": "Un changement aérodynamique peut modifier le comportement en virage et la facilité à suivre une autre voiture.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg/960px-Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg",
+    "imageAlt": "Aileron arrière DRS Mercedes AMG F1 W09 exposé",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "tyres",
     "name": "Pneus",
     "category": "Course",
     "description": "Les règles sportives et techniques encadrent les pneus disponibles, leur utilisation et les obligations selon les courses.",
-    "whyItMatters": "Elles créent une dimension stratégique visible pour les spectateurs."
+    "whyItMatters": "Elles créent une dimension stratégique visible pour les spectateurs.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Pneus Pirelli de Formule 1 exposés",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "parc-ferme",
     "name": "Parc fermé",
     "category": "Exploitation",
     "description": "Après certaines séances, les modifications possibles sur les voitures sont limitées.",
-    "whyItMatters": "Les équipes doivent choisir un compromis de réglage avant de connaître toutes les conditions de course."
+    "whyItMatters": "Les équipes doivent choisir un compromis de réglage avant de connaître toutes les conditions de course.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Formula_One_garage_Silverstone_2007.jpg/960px-Formula_One_garage_Silverstone_2007.jpg",
+    "imageAlt": "Garage de Formule 1 à Silverstone",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "id": "cost-cap",
     "name": "Plafond budgétaire",
     "category": "Équilibre sportif",
     "description": "La discipline limite certaines dépenses afin de rapprocher les moyens des équipes.",
-    "whyItMatters": "Le défi devient autant organisationnel que technique."
+    "whyItMatters": "Le défi devient autant organisationnel que technique.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Renault_F1_Team_garage%2C_2010_Brno_WSR_%2810%29-cropped.jpg/960px-Renault_F1_Team_garage%2C_2010_Brno_WSR_%2810%29-cropped.jpg",
+    "imageAlt": "Garage de l'équipe Renault F1",
+    "imageCredit": "Wikimedia Commons"
   }
 ]
-

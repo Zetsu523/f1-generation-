@@ -4,42 +4,59 @@
     "name": "Pneus slicks",
     "category": "Sec",
     "description": "Les slicks n'ont pas de rainures. Ils offrent le plus d'adhérence sur piste sèche.",
-    "strategy": "Les équipes choisissent entre composés plus durs ou plus tendres selon l'usure attendue et le rythme recherché."
+    "strategy": "Les équipes choisissent entre composés plus durs ou plus tendres selon l'usure attendue et le rythme recherché.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Pneus slicks Pirelli de Formule 1 exposés",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "intermediates",
     "name": "Intermédiaires",
     "category": "Piste humide",
     "description": "Ils évacuent une quantité modérée d'eau et servent quand la piste est humide sans être totalement détrempée.",
-    "strategy": "Le bon moment pour les chausser ou les quitter peut décider une course changeante."
+    "strategy": "Le bon moment pour les chausser ou les quitter peut décider une course changeante.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_02.jpg/960px-Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_02.jpg",
+    "imageAlt": "Pneus Pirelli de Formule 1 exposés, dont des composés pour piste humide",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "full-wets",
     "name": "Pluie",
     "category": "Piste très mouillée",
     "description": "Ils possèdent des sculptures plus marquées pour évacuer davantage d'eau.",
-    "strategy": "Ils rassurent sous forte pluie, mais s'usent vite si la piste sèche."
+    "strategy": "Ils rassurent sous forte pluie, mais s'usent vite si la piste sèche.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_03.jpg/960px-Pirelli_Tyre_Sets_at_Formula_1_Exhibition%2C_London_03.jpg",
+    "imageAlt": "Pneus pluie Pirelli de Formule 1 exposés",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "id": "degradation",
     "name": "Dégradation",
     "category": "Performance",
     "description": "La dégradation est la perte progressive de performance du pneu.",
-    "strategy": "Elle détermine la durée possible d'un relais et le nombre d'arrêts aux stands."
+    "strategy": "Elle détermine la durée possible d'un relais et le nombre d'arrêts aux stands.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pirelli_Tire_Range_%2852849596009%29.jpg/960px-Pirelli_Tire_Range_%2852849596009%29.jpg",
+    "imageAlt": "Gamme de pneus Pirelli de Formule 1",
+    "imageCredit": "Steve / Wikimedia Commons"
   },
   {
     "id": "graining",
     "name": "Graining",
     "category": "Surface",
     "description": "De petits morceaux de gomme peuvent se former à la surface du pneu et réduire l'adhérence.",
-    "strategy": "Le pilote peut parfois nettoyer le pneu en adaptant son rythme."
+    "strategy": "Le pilote peut parfois nettoyer le pneu en adaptant son rythme.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pirelli_tyres_%2843376022812%29.jpg/960px-Pirelli_tyres_%2843376022812%29.jpg",
+    "imageAlt": "Pneus Pirelli de Formule 1 empilés",
+    "imageCredit": "Wikimedia Commons"
   },
   {
     "id": "undercut-overcut",
     "name": "Undercut et overcut",
     "category": "Stratégie",
     "description": "L'undercut consiste à s'arrêter avant un rival, l'overcut à rester en piste plus longtemps.",
-    "strategy": "Le choix dépend du trafic, de l'usure, de la température des pneus et du temps perdu aux stands."
+    "strategy": "Le choix dépend du trafic, de l'usure, de la température des pneus et du temps perdu aux stands.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg/960px-Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg",
+    "imageAlt": "Entraînement d'arrêt au stand Williams avec pneus de Formule 1",
+    "imageCredit": "pedrik / Wikimedia Commons"
   }
 ]
-

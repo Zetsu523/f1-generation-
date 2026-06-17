@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import Card from '../components/Card/Card.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import PhotoMedia from '../components/PhotoMedia/PhotoMedia.jsx'
 import Timeline from '../components/Timeline/Timeline.jsx'
 import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import eras from '../data/eras.json'
+import historicCrashes from '../data/historicCrashes.json'
 import legendDrivers from '../data/legendDrivers.json'
 import './History.css'
 
@@ -17,6 +19,11 @@ const historyChoices = [
     id: 'drivers',
     label: 'Grands pilotes',
     description: 'Découvrir les trajectoires des champions et leur manière de marquer leur époque.',
+  },
+  {
+    id: 'crashes',
+    label: 'Grands crashs',
+    description: 'Comprendre les accidents marquants et les progrès de sécurité qu’ils ont accélérés.',
   },
 ]
 
@@ -64,6 +71,39 @@ function DriverCard({ driver, index }) {
           ))}
         </ul>
       </div>
+    </article>
+  )
+}
+
+function CrashCard({ crash, index }) {
+  return (
+    <article className="crash-card">
+      <div className="crash-card__media">
+        <PhotoMedia
+          imageUrl={crash.imageUrl}
+          imageAlt={crash.imageAlt}
+          imageCredit={crash.imageCredit}
+          imagePosition={crash.imagePosition}
+          label={crash.title}
+        />
+      </div>
+      <div className="crash-card__topline">
+        <span>{crash.period}</span>
+        <span>{String(index + 1).padStart(2, '0')}</span>
+      </div>
+      <p className="crash-card__type">{crash.type}</p>
+      <h3>{crash.title}</h3>
+      <p className="crash-card__event">{crash.event}</p>
+      <p>{crash.summary}</p>
+      <div className="crash-card__lesson">
+        <strong>Impact sécurité</strong>
+        <span>{crash.safetyLesson}</span>
+      </div>
+      <ul className="pill-list" aria-label={`Leçons de sécurité ${crash.title}`}>
+        {crash.impact.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
     </article>
   )
 }
@@ -157,6 +197,32 @@ function DriversHistoryView() {
   )
 }
 
+function CrashHistoryView() {
+  return (
+    <>
+      <section className="section history-crashes-intro">
+        <div className="section__header">
+          <p className="section__eyebrow">Sécurité</p>
+          <h2>Les crashs qui ont changé la F1</h2>
+          <p>
+            Cette sélection présente des accidents marquants sans chercher le spectaculaire. Le but
+            est de comprendre comment chaque drame, ou accident évité de peu, a poussé la Formule 1
+            à mieux protéger les pilotes, les commissaires et les équipes.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="crash-grid">
+          {historicCrashes.map((crash, index) => (
+            <CrashCard crash={crash} index={index} key={crash.id} />
+          ))}
+        </div>
+      </section>
+    </>
+  )
+}
+
 function History() {
   const [activeView, setActiveView] = useState('f1')
 
@@ -165,7 +231,7 @@ function History() {
       <PageTitle
         eyebrow="Histoire"
         title="Histoire de la F1"
-        description="Choisir entre la grande chronologie de la Formule 1 et les histoires des pilotes qui ont marqué la discipline."
+        description="Choisir entre la grande chronologie de la Formule 1, les histoires des pilotes et les crashs qui ont transformé la sécurité."
       />
 
       <section className="history-choice" aria-label="Choisir un parcours historique">
@@ -183,7 +249,13 @@ function History() {
         ))}
       </section>
 
-      {activeView === 'f1' ? <F1HistoryView /> : <DriversHistoryView />}
+      {activeView === 'f1' ? (
+        <F1HistoryView />
+      ) : activeView === 'drivers' ? (
+        <DriversHistoryView />
+      ) : (
+        <CrashHistoryView />
+      )}
     </div>
   )
 }

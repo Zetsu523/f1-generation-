@@ -27,7 +27,7 @@ function Engines() {
         title="Le moteur moderne est un système d’énergie"
         description="Un moteur de F1 ne se résume plus à sa puissance. Refroidissement, récupération électrique, intégration dans le châssis et fiabilité forment un ensemble."
         diagram="engine"
-        diagramTitle="Flux simplifié d'un groupe hybride"
+        diagramTitle="Schéma simple d'un groupe hybride"
         facts={quickFacts.engines}
       />
 

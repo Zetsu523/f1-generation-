@@ -85,6 +85,13 @@
   transform: skew(12deg);
 }
 
+.team-visual__showcase {
+  align-items: stretch;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: minmax(0, 1.12fr) minmax(130px, 0.88fr);
+}
+
 .team-visual__car-box {
   align-items: end;
   background:
@@ -93,19 +100,181 @@
   border-radius: 8px;
   display: flex;
   justify-content: center;
-  min-height: 126px;
+  min-height: 168px;
   overflow: hidden;
-  padding: 0.25rem 0.2rem 0;
+  padding: 0.4rem 0.35rem 0;
 }
 
 .team-visual__car-image {
   display: block;
   filter: drop-shadow(0 18px 14px rgba(0, 0, 0, 0.42));
-  height: 128px;
+  height: 158px;
   max-width: 100%;
   object-fit: contain;
   object-position: center bottom;
   width: 100%;
+}
+
+.team-visual__drivers {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr;
+}
+
+.team-visual__driver-card {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.025)),
+    color-mix(in srgb, var(--team-secondary), black 12%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  margin: 0;
+  min-height: 80px;
+  overflow: hidden;
+}
+
+.team-visual__driver-trigger {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  cursor: zoom-in;
+  display: grid;
+  gap: 0.55rem;
+  grid-template-columns: 58px minmax(0, 1fr);
+  min-height: 80px;
+  padding: 0.4rem 0.55rem 0.4rem 0.35rem;
+  text-align: left;
+  width: 100%;
+}
+
+.team-visual__driver-trigger:not(:disabled):hover,
+.team-visual__driver-trigger:not(:disabled):focus-visible {
+  background: rgba(255, 255, 255, 0.08);
+  outline: none;
+}
+
+.team-visual__driver-trigger:not(:disabled):focus-visible {
+  box-shadow: inset 0 0 0 2px var(--color-accent-blue);
+}
+
+.team-visual__driver-trigger:disabled {
+  cursor: default;
+}
+
+.team-visual__driver-portrait {
+  align-items: end;
+  align-self: stretch;
+  background:
+    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--team-accent), transparent 55%), transparent 62%),
+    rgba(0, 0, 0, 0.32);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  min-height: 72px;
+  overflow: hidden;
+}
+
+.team-visual__driver-image {
+  display: block;
+  filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.36));
+  height: 92px;
+  max-width: 72px;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.team-visual__driver-initials {
+  align-items: center;
+  color: var(--color-text);
+  display: flex;
+  font-size: 1rem;
+  font-weight: 950;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.team-visual__driver-name {
+  color: var(--color-text);
+  font-size: 0.78rem;
+  font-weight: 900;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.team-visual__zoom-backdrop {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(10px);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  padding: clamp(1rem, 3vw, 2rem);
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.team-visual__zoom-dialog {
+  background:
+    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--team-accent), transparent 52%), transparent 58%),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.035)),
+    #111;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 32px 90px rgba(0, 0, 0, 0.62);
+  display: grid;
+  gap: 0.8rem;
+  justify-items: center;
+  max-height: min(88vh, 760px);
+  max-width: min(520px, 92vw);
+  overflow: hidden;
+  padding: clamp(1rem, 3vw, 1.4rem);
+  position: relative;
+  width: 100%;
+}
+
+.team-visual__zoom-close {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  color: var(--color-text);
+  cursor: pointer;
+  font-weight: 900;
+  justify-self: end;
+  min-height: 40px;
+  padding: 0.55rem 0.85rem;
+}
+
+.team-visual__zoom-close:hover,
+.team-visual__zoom-close:focus-visible {
+  background: rgba(255, 255, 255, 0.16);
+  outline: none;
+}
+
+.team-visual__zoom-close:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-accent-blue);
+}
+
+.team-visual__zoom-image {
+  display: block;
+  filter: drop-shadow(0 22px 18px rgba(0, 0, 0, 0.45));
+  height: min(68vh, 620px);
+  max-width: 420px;
+  object-fit: contain;
+  object-position: center bottom;
+  width: 100%;
+}
+
+.team-visual__zoom-dialog p {
+  color: var(--color-text);
+  font-size: clamp(1.25rem, 4vw, 2rem);
+  font-weight: 950;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
 }
 
 .team-visual__car {
@@ -180,5 +349,35 @@
 
   .team-visual__team-name {
     text-align: left;
+  }
+
+  .team-visual__showcase {
+    grid-template-columns: 1fr;
+  }
+
+  .team-visual__drivers {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team-visual__driver-card {
+    min-height: 130px;
+  }
+
+  .team-visual__driver-trigger {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    min-height: 130px;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .team-visual__driver-portrait {
+    min-height: 92px;
+    width: 100%;
+  }
+
+  .team-visual__driver-image {
+    height: 118px;
+    max-width: 92px;
   }
 }

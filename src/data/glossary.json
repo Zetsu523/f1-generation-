@@ -3,108 +3,144 @@
     "term": "Appui aérodynamique",
     "definition": "Force produite par l'air qui pousse la voiture vers la piste et augmente l'adhérence en virage.",
     "category": "Aérodynamique",
-    "visual": "aero-flow"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/1988_Arrows_A10B_Formula_1_%2854630004584%29.jpg/960px-1988_Arrows_A10B_Formula_1_%2854630004584%29.jpg",
+    "imageAlt": "Monoplace de Formule 1 avec ses éléments aérodynamiques visibles",
+    "imageCredit": "Tomás Del Coro / Wikimedia Commons"
   },
   {
     "term": "Traînée",
     "definition": "Résistance de l'air qui freine la voiture, surtout en ligne droite.",
     "category": "Aérodynamique",
-    "visual": "aero-flow"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2018_Austrian_Grand_Prix_turn_1_%2843147259711%29.jpg/960px-2018_Austrian_Grand_Prix_turn_1_%2843147259711%29.jpg",
+    "imageAlt": "Monoplaces de Formule 1 en piste",
+    "imageCredit": "Jen Ross / Wikimedia Commons"
   },
   {
     "term": "DRS",
     "definition": "Système qui ouvre une partie de l'aileron arrière pour réduire la traînée dans certaines zones.",
     "category": "Aérodynamique",
-    "visual": "rear-wing"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg/960px-Mercedes_AMG_F1_W09_EQ_Power%2B_DRS_Rear_Wing_at_Formula_1_Exhibition%2C_London.jpg",
+    "imageAlt": "Aileron arrière DRS d'une monoplace Mercedes F1",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "term": "ERS",
     "definition": "Système hybride qui récupère et redéploie de l'énergie électrique.",
     "category": "Hybridation",
-    "visual": "energy"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Honda_Racing_Gallery_-_Honda_RA621H.jpg/960px-Honda_Racing_Gallery_-_Honda_RA621H.jpg",
+    "imageAlt": "Groupe propulseur hybride Honda de Formule 1",
+    "imageCredit": "Liauzh / Wikimedia Commons"
   },
   {
     "term": "MGU-K",
     "definition": "Élément hybride lié au freinage qui récupère de l'énergie cinétique et peut la redéployer.",
     "category": "Hybridation",
-    "visual": "energy"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Honda_Racing_Gallery_-_Honda_RA621H.jpg/960px-Honda_Racing_Gallery_-_Honda_RA621H.jpg",
+    "imageAlt": "Groupe propulseur hybride Honda de Formule 1",
+    "imageCredit": "Liauzh / Wikimedia Commons"
   },
   {
     "term": "Undercut",
     "definition": "Stratégie consistant à s'arrêter avant un adversaire pour profiter de pneus plus frais.",
     "category": "Stratégie",
-    "visual": "strategy"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg/960px-Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg",
+    "imageAlt": "Entraînement d'arrêt au stand Williams F1",
+    "imageCredit": "pedrik / Wikimedia Commons"
   },
   {
     "term": "Overcut",
     "definition": "Stratégie consistant à rester en piste plus longtemps qu'un adversaire avant de s'arrêter.",
     "category": "Stratégie",
-    "visual": "strategy"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg/960px-Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg",
+    "imageAlt": "Entraînement d'arrêt au stand Williams F1",
+    "imageCredit": "pedrik / Wikimedia Commons"
   },
   {
     "term": "Graining",
     "definition": "Accumulation de gomme à la surface du pneu qui réduit temporairement l'adhérence.",
     "category": "Pneus",
-    "visual": "tyre"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pirelli_Tire_Range_%2852849596009%29.jpg/960px-Pirelli_Tire_Range_%2852849596009%29.jpg",
+    "imageAlt": "Gamme de pneus Pirelli de Formule 1",
+    "imageCredit": "Steve / Wikimedia Commons"
   },
   {
     "term": "Blistering",
     "definition": "Surchauffe interne qui crée des cloques ou zones abîmées sur le pneu.",
     "category": "Pneus",
-    "visual": "tyre"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pirelli_Tire_Range_%2852849596009%29.jpg/960px-Pirelli_Tire_Range_%2852849596009%29.jpg",
+    "imageAlt": "Gamme de pneus Pirelli de Formule 1",
+    "imageCredit": "Steve / Wikimedia Commons"
   },
   {
     "term": "Monocoque",
     "definition": "Structure centrale très résistante qui protège le pilote.",
     "category": "Sécurité",
-    "visual": "safety"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg/960px-2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg",
+    "imageAlt": "Cockpit et halo d'une Williams FW43 en essais",
+    "imageCredit": "Artes Max / Adriel 00 / Wikimedia Commons"
   },
   {
     "term": "Diffuseur",
     "definition": "Partie arrière du plancher qui aide l'air à sortir proprement sous la voiture.",
     "category": "Aérodynamique",
-    "visual": "floor"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Monoplace Lotus exposée avec son arrière visible",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "term": "Effet de sol",
     "definition": "Principe qui utilise le flux d'air sous la voiture pour créer de l'appui.",
     "category": "Aérodynamique",
-    "visual": "floor"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg/960px-Lotus_72_at_Formula_1_Exhibition%2C_London_01.jpg",
+    "imageAlt": "Monoplace Lotus exposée, utile pour comprendre l'évolution aérodynamique",
+    "imageCredit": "Hullian111 / Wikimedia Commons"
   },
   {
     "term": "Halo",
     "definition": "Arceau de protection situé autour de la tête du pilote.",
     "category": "Sécurité",
-    "visual": "safety"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg/960px-2020_Formula_One_tests_Barcelona%2C_Williams_FW43%2C_Russell%2C_pitot_tubes_%28cropped%29.jpg",
+    "imageAlt": "Halo visible autour du cockpit d'une Williams FW43",
+    "imageCredit": "Artes Max / Adriel 00 / Wikimedia Commons"
   },
   {
     "term": "Parc fermé",
     "definition": "Période pendant laquelle les modifications de la voiture sont fortement limitées.",
     "category": "Règlement",
-    "visual": "rules"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg/960px-Pit_Stop_Practice_at_Williams_%2814845909054%29.jpg",
+    "imageAlt": "Voiture de Formule 1 dans un environnement de stand",
+    "imageCredit": "pedrik / Wikimedia Commons"
   },
   {
     "term": "Porpoising",
     "definition": "Oscillation verticale provoquée par une perte puis un retour d'appui aérodynamique sous la voiture.",
     "category": "Aérodynamique",
-    "visual": "oscillation"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Felipe_Massa_2014_British_GP_001.jpg/960px-Felipe_Massa_2014_British_GP_001.jpg",
+    "imageAlt": "Monoplace Williams en piste au Grand Prix de Grande-Bretagne 2014",
+    "imageCredit": "Morio / Wikimedia Commons"
   },
   {
     "term": "Apex",
     "definition": "Point intérieur d'un virage que le pilote vise pour optimiser sa trajectoire.",
     "category": "Pilotage",
-    "visual": "driving"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2018_Austrian_Grand_Prix_turn_1_%2843147259711%29.jpg/960px-2018_Austrian_Grand_Prix_turn_1_%2843147259711%29.jpg",
+    "imageAlt": "Monoplaces dans le premier virage du Grand Prix d'Autriche 2018",
+    "imageCredit": "Jen Ross / Wikimedia Commons"
   },
   {
     "term": "Brake balance",
     "definition": "Répartition du freinage entre l'avant et l'arrière, ajustable par le pilote.",
     "category": "Pilotage",
-    "visual": "brakes"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/Brake_disc_McLaren_F1.jpg",
+    "imageAlt": "Disque de frein carbone d'une McLaren F1",
+    "imageCredit": "Jinx1303 / Wikimedia Commons"
   },
   {
     "term": "Safety Car",
     "definition": "Voiture qui neutralise la course lorsque la piste doit être sécurisée.",
     "category": "Course",
-    "visual": "course"
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Formula_1_Safety_Car_Mercedes-AMG_GT_R.jpg/960px-Formula_1_Safety_Car_Mercedes-AMG_GT_R.jpg",
+    "imageAlt": "Mercedes-AMG GT R Safety Car de Formule 1",
+    "imageCredit": "Michał Obrochta / Wikimedia Commons"
   }
 ]

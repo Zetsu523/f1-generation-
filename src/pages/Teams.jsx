@@ -4,6 +4,7 @@ import QuickFact from '../components/QuickFact/QuickFact.jsx'
 import TeamVisual from '../components/TeamVisual/TeamVisual.jsx'
 import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import teams from '../data/teams.json'
+import './Teams.css'
 
 function Teams() {
   return (
@@ -43,10 +44,11 @@ function Teams() {
           <p>
             Ces fiches donnent une première lecture pédagogique. Les palmarès détaillés pourront
             être ajoutés plus tard avec des sources précises. Les logos et voitures sont chargés
-            depuis les ressources publiques de Formula 1 quand elles sont disponibles.
+            depuis les ressources publiques de Formula 1 quand elles sont disponibles. Les pilotes
+            affichés correspondent à la grille 2026 vérifiée sur le site officiel F1.
           </p>
         </div>
-        <div className="card-grid">
+        <div className="card-grid teams-grid">
           {teams.map((team) => (
             <Card
               key={team.id}

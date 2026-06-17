@@ -2,162 +2,70 @@
   align-items: start;
   display: grid;
   gap: 1rem;
-  grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.75fr);
+  grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.65fr);
   padding: clamp(1.7rem, 5vw, 3.4rem) 0;
 }
 
 .interactive-car__stage {
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.07), transparent 18%, transparent 82%, rgba(255, 255, 255, 0.05)),
-    linear-gradient(90deg, #050505 0%, #111 16%, #171717 50%, #111 84%, #050505 100%);
+    linear-gradient(180deg, #151515 0%, #080808 100%);
   border: 1px solid var(--color-border);
   border-radius: 8px;
   box-shadow: var(--shadow-soft);
-  height: clamp(330px, 34vw, 430px);
+  height: clamp(300px, 30vw, 380px);
+  margin: 0;
   min-width: 0;
   overflow: hidden;
   position: relative;
 }
 
-.interactive-car__stage::before,
 .interactive-car__stage::after {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), transparent 24%, transparent 72%, rgba(0, 0, 0, 0.24)),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.08), transparent 16%, transparent 82%, rgba(0, 0, 0, 0.08));
   content: '';
   inset: 0;
   pointer-events: none;
   position: absolute;
+  z-index: 2;
 }
 
-.interactive-car__stage::before {
-  background:
-    repeating-linear-gradient(58deg, rgba(255, 255, 255, 0.035) 0 2px, transparent 2px 15px),
-    repeating-linear-gradient(122deg, rgba(0, 0, 0, 0.32) 0 2px, transparent 2px 18px),
-    linear-gradient(90deg, rgba(225, 6, 0, 0.28), transparent 18%, transparent 82%, rgba(225, 6, 0, 0.28));
-  opacity: 0.5;
-  z-index: 0;
-}
-
-.interactive-car__stage::after {
-  background:
-    linear-gradient(90deg, transparent 5%, rgba(143, 211, 255, 0.18) 18%, transparent 36%, transparent 64%, rgba(143, 211, 255, 0.14) 82%, transparent 95%),
-    linear-gradient(180deg, transparent 46%, rgba(255, 255, 255, 0.14) 49%, rgba(255, 255, 255, 0.03) 50%, transparent 54%),
-    radial-gradient(ellipse at center, transparent 46%, rgba(0, 0, 0, 0.48) 100%);
-  z-index: 0;
-}
-
-.interactive-car__svg {
+.interactive-car__photo {
   display: block;
+  filter: brightness(0.92) contrast(1.05) saturate(1.05);
   height: 100%;
-  position: relative;
+  inset: 0;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
   width: 100%;
   z-index: 1;
 }
 
-.interactive-car__floor {
-  fill: rgba(143, 211, 255, 0.08);
-  stroke: rgba(143, 211, 255, 0.34);
-  stroke-width: 3;
-}
-
-.interactive-car__body {
-  fill: url(#carBodyTop);
-  stroke: rgba(255, 255, 255, 0.38);
-  stroke-width: 3;
-}
-
-.interactive-car__nose {
-  fill: rgba(236, 236, 236, 0.82);
-  stroke: rgba(255, 255, 255, 0.5);
-  stroke-width: 3;
-}
-
-.interactive-car__wing,
-.interactive-car__front-endplate,
-.interactive-car__diffuser {
-  fill: rgba(225, 6, 0, 0.18);
-  stroke: rgba(225, 6, 0, 0.68);
-  stroke-width: 4;
-}
-
-.interactive-car__wing-plane,
-.interactive-car__rear-plane {
-  fill: rgba(225, 6, 0, 0.48);
-}
-
-.interactive-car__sidepod {
-  fill: rgba(12, 12, 12, 0.66);
-  stroke: rgba(245, 245, 245, 0.22);
-  stroke-width: 3;
-}
-
-.interactive-car__engine-cover {
-  fill: rgba(20, 20, 20, 0.82);
-  stroke: rgba(245, 245, 245, 0.22);
-  stroke-width: 3;
-}
-
-.interactive-car__cockpit {
-  fill: rgba(5, 5, 5, 0.82);
-  stroke: rgba(245, 245, 245, 0.72);
-  stroke-width: 4;
-}
-
-.interactive-car__halo {
-  fill: none;
-  stroke: rgba(245, 245, 245, 0.88);
-  stroke-linecap: round;
-  stroke-width: 11;
-}
-
-.interactive-car__halo--center {
-  stroke-width: 8;
-}
-
-.interactive-car__suspension path {
-  fill: none;
-  stroke: rgba(245, 245, 245, 0.38);
-  stroke-linecap: round;
-  stroke-width: 5;
-}
-
-.interactive-car__wheel {
-  fill: #050505;
-  stroke: #4d4d4d;
-  stroke-width: 18;
-}
-
-.interactive-car__brake {
-  fill: rgba(248, 193, 74, 0.35);
-  stroke: rgba(248, 193, 74, 0.72);
-  stroke-width: 4;
-}
-
-.interactive-car__brake--rear {
-  fill: rgba(143, 211, 255, 0.22);
-  stroke: rgba(143, 211, 255, 0.62);
-}
-
-.interactive-car__flow {
-  fill: none;
-  opacity: 0.52;
-  stroke: rgba(143, 211, 255, 0.82);
-  stroke-dasharray: 20 20;
-  stroke-linecap: round;
-  stroke-width: 7;
-}
-
-.interactive-car__flow--bottom {
-  stroke: rgba(225, 6, 0, 0.72);
+.interactive-car__stage figcaption {
+  background: rgba(0, 0, 0, 0.62);
+  border-radius: 8px 0 0 0;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.7rem;
+  font-weight: 750;
+  padding: 0.35rem 0.55rem;
+  position: absolute;
+  right: 0;
+  z-index: 5;
 }
 
 .interactive-car__hotspot {
   align-items: center;
   background: rgba(10, 10, 10, 0.88);
-  border: 2px solid rgba(255, 255, 255, 0.65);
+  border: 2px solid rgba(255, 255, 255, 0.72);
   border-radius: 50%;
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.36);
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.48),
+    0 0 0 6px rgba(0, 0, 0, 0.26);
   color: var(--color-text);
   display: flex;
-  height: 34px;
+  height: 36px;
   justify-content: center;
   padding: 0;
   position: absolute;
@@ -168,8 +76,8 @@
     border-color 160ms ease,
     box-shadow 160ms ease,
     transform 160ms ease;
-  width: 34px;
-  z-index: 2;
+  width: 36px;
+  z-index: 4;
 }
 
 .interactive-car__hotspot span {
@@ -183,7 +91,9 @@
 .interactive-car__hotspot--active {
   background: var(--color-primary);
   border-color: white;
-  box-shadow: 0 0 0 6px rgba(225, 6, 0, 0.24);
+  box-shadow:
+    0 0 0 7px rgba(225, 6, 0, 0.28),
+    0 10px 26px rgba(0, 0, 0, 0.48);
   transform: translate(-50%, -50%) scale(1.08);
 }
 
@@ -271,13 +181,13 @@
   }
 
   .interactive-car__stage {
-    height: clamp(330px, 58vw, 430px);
+    height: clamp(300px, 54vw, 410px);
   }
 }
 
 @media (max-width: 720px) {
   .interactive-car__stage {
-    height: clamp(300px, 68vw, 360px);
+    height: clamp(280px, 70vw, 360px);
   }
 
   .interactive-car__selector {

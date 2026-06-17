@@ -2,22 +2,51 @@ import './TechDiagram.css'
 
 function EngineDiagram() {
   return (
-    <svg className="tech-diagram__svg" viewBox="0 0 640 380" role="img" aria-label="Schéma d'un groupe propulseur hybride">
-      <defs>
-        <linearGradient id="engineGlow" x1="0" x2="1" y1="0" y2="1">
-          <stop offset="0%" stopColor="#e10600" />
-          <stop offset="100%" stopColor="#8fd3ff" />
-        </linearGradient>
-      </defs>
+    <svg className="tech-diagram__svg" viewBox="0 0 640 380" role="img" aria-label="Schéma simplifié d'un groupe propulseur hybride">
       <rect className="tech-diagram__panel" x="28" y="42" width="584" height="278" rx="22" />
-      <path className="tech-diagram__line tech-diagram__line--red" d="M94 206h96l54-76h152l50 76h96" />
-      <path className="tech-diagram__line tech-diagram__line--blue" d="M112 252h122c48 0 52-56 104-56h190" />
-      <rect className="tech-diagram__block" x="232" y="124" width="180" height="120" rx="18" />
-      <circle className="tech-diagram__accent" cx="160" cy="206" r="34" />
-      <circle className="tech-diagram__accent tech-diagram__accent--blue" cx="494" cy="206" r="34" />
-      <text x="265" y="190">V6 turbo</text>
-      <text x="118" y="276">MGU-K</text>
-      <text x="456" y="276">ERS</text>
+      <text className="tech-diagram__engine-title" x="320" y="88" textAnchor="middle">
+        Le moteur hybride en 3 idées
+      </text>
+
+      <g>
+        <rect className="tech-diagram__engine-card tech-diagram__engine-card--red" x="58" y="116" width="154" height="170" rx="18" />
+        <circle className="tech-diagram__engine-number tech-diagram__engine-number--red" cx="90" cy="150" r="18" />
+        <text className="tech-diagram__engine-number-text" x="90" y="157" textAnchor="middle">1</text>
+        <rect className="tech-diagram__engine-icon tech-diagram__engine-icon--red" x="108" y="154" width="58" height="42" rx="8" />
+        <path className="tech-diagram__engine-icon-line" d="M100 186h76M118 146h42" />
+        <text className="tech-diagram__engine-label" x="135" y="232" textAnchor="middle">V6 turbo</text>
+        <text className="tech-diagram__engine-small" x="135" y="260" textAnchor="middle">Propulse</text>
+      </g>
+
+      <g>
+        <rect className="tech-diagram__engine-card tech-diagram__engine-card--blue" x="243" y="116" width="154" height="170" rx="18" />
+        <circle className="tech-diagram__engine-number tech-diagram__engine-number--blue" cx="273" cy="150" r="18" />
+        <text className="tech-diagram__engine-number-text" x="273" y="157" textAnchor="middle">2</text>
+        <path className="tech-diagram__engine-loop" d="M292 184c0-23 18-42 42-42 17 0 31 9 38 22M376 180c0 23-18 42-42 42-17 0-31-9-38-22" />
+        <path className="tech-diagram__engine-bolt" d="M336 156l-20 42h20l-12 34 34-52h-22l16-24h-16Z" />
+        <text className="tech-diagram__engine-label" x="320" y="232" textAnchor="middle">MGU-K</text>
+        <text className="tech-diagram__engine-small" x="320" y="260" textAnchor="middle">Récupère</text>
+      </g>
+
+      <g>
+        <rect className="tech-diagram__engine-card tech-diagram__engine-card--green" x="428" y="116" width="154" height="170" rx="18" />
+        <circle className="tech-diagram__engine-number tech-diagram__engine-number--green" cx="456" cy="150" r="18" />
+        <text className="tech-diagram__engine-number-text" x="456" y="157" textAnchor="middle">3</text>
+        <rect className="tech-diagram__engine-battery" x="474" y="160" width="58" height="34" rx="8" />
+        <rect className="tech-diagram__engine-battery-tip" x="532" y="170" width="9" height="14" rx="3" />
+        <path className="tech-diagram__engine-boost" d="M486 210h40" />
+        <polygon className="tech-diagram__engine-arrow-head tech-diagram__engine-arrow-head--green" points="536,210 522,200 522,220" />
+        <text className="tech-diagram__engine-label" x="505" y="229" textAnchor="middle">
+          <tspan x="505" y="229">Batterie</tspan>
+          <tspan x="505" y="253">ERS</tspan>
+        </text>
+        <text className="tech-diagram__engine-small" x="505" y="274" textAnchor="middle">Boost</text>
+      </g>
+
+      <path className="tech-diagram__engine-arrow" d="M218 204h18" />
+      <polygon className="tech-diagram__engine-arrow-head" points="240,204 226,194 226,214" />
+      <path className="tech-diagram__engine-arrow" d="M403 204h18" />
+      <polygon className="tech-diagram__engine-arrow-head" points="425,204 411,194 411,214" />
     </svg>
   )
 }
@@ -127,4 +156,3 @@ function TechDiagram({ variant = 'aero', title }) {
 }
 
 export default TechDiagram
-

@@ -78,7 +78,7 @@ function Glossary() {
                 eyebrow={entry.category}
                 title={entry.term}
                 description={entry.definition}
-                media={<GlossaryVisual type={entry.visual} label={entry.term} />}
+                media={<GlossaryVisual entry={entry} />}
               />
             ))}
           </div>

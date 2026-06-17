@@ -1,5 +1,6 @@
 import Card from '../components/Card/Card.jsx'
 import PageTitle from '../components/PageTitle/PageTitle.jsx'
+import PhotoMedia from '../components/PhotoMedia/PhotoMedia.jsx'
 import VisualSection from '../components/VisualSection/VisualSection.jsx'
 import quickFacts from '../data/quickFacts.json'
 import regulations from '../data/regulations.json'
@@ -46,6 +47,14 @@ function Regulations() {
               title={rule.name}
               description={rule.description}
               items={[rule.whyItMatters]}
+              media={
+                <PhotoMedia
+                  imageUrl={rule.imageUrl}
+                  imageAlt={rule.imageAlt}
+                  imageCredit={rule.imageCredit}
+                  label={rule.name}
+                />
+              }
             />
           ))}
         </div>
