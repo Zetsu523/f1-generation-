@@ -33,6 +33,12 @@ const quickLinks = [
     eyebrow: 'Équipes',
   },
   {
+    title: 'Circuits F1',
+    description: 'Lire les profils de pistes : urbain, rapide, vallonné, technique ou très exigeant en appui.',
+    to: '/circuits',
+    eyebrow: 'Pistes',
+  },
+  {
     title: 'Glossaire F1',
     description: 'Retrouver rapidement une définition simple des termes de course et d’ingénierie.',
     to: '/glossaire',
@@ -76,7 +82,7 @@ function Home() {
             </div>
             <div className="metric-strip" aria-label="Points clés du site">
               <div className="metric-strip__item">
-                <span className="metric-strip__value">11</span>
+                <span className="metric-strip__value">12</span>
                 <span className="metric-strip__label">rubriques et outils</span>
               </div>
               <div className="metric-strip__item">
@@ -98,11 +104,11 @@ function Home() {
             <p className="section__eyebrow">Nouveautés V2</p>
             <h2>Les derniers ajouts sont en ligne</h2>
             <p>
-              Cette version ajoute les écuries, une monoplace interactive sur photo réelle, des
-              grands pilotes, des crashs marquants et un comparateur d’époques.
+              Cette version ajoute les écuries, les circuits, une monoplace interactive sur photo
+              réelle, des grands pilotes, des crashs marquants et un comparateur d’époques.
             </p>
           </div>
-          <div className="card-grid card-grid--two">
+          <div className="card-grid">
             <Card
               eyebrow="Nouveau"
               title="Écuries F1"
@@ -116,6 +122,13 @@ function Home() {
               description="La page Histoire contient maintenant trois parcours : chronologie, grands pilotes et crashs qui ont fait évoluer la sécurité."
               to="/histoire"
               linkLabel="Ouvrir l’histoire"
+            />
+            <Card
+              eyebrow="Nouveau"
+              title="Circuits F1"
+              description="Une nouvelle rubrique pour comparer Monaco, Monza, Spa, Suzuka et d'autres pistes par profil technique."
+              to="/circuits"
+              linkLabel="Voir les circuits"
             />
           </div>
         </section>

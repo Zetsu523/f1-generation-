@@ -6,6 +6,12 @@
     "usage": "Repères historiques sur la première saison du championnat du monde."
   },
   {
+    "id": "formula1-results-archive",
+    "title": "Formula 1 - Archives de résultats",
+    "url": "https://www.formula1.com/en/results",
+    "usage": "Repères historiques sur les vainqueurs, podiums et courses marquantes associés aux circuits."
+  },
+  {
     "id": "formula1-history",
     "title": "Formula 1 - Histoire et contenus pédagogiques officiels",
     "url": "https://www.formula1.com/",
@@ -106,6 +112,24 @@
     "title": "Formula 1 - F1 Drivers 2026",
     "url": "https://www.formula1.com/en/drivers",
     "usage": "Liste officielle des pilotes 2026 et portraits utilisés sur les fiches écuries."
+  },
+  {
+    "id": "formula1-circuit-pages-2026",
+    "title": "Formula 1 - Calendrier et pages circuits 2026",
+    "url": "https://www.formula1.com/en/racing/2026",
+    "usage": "Repères pour les 22 circuits affichés au calendrier officiel F1 2026 : longueur, nombre de tours, distance de course, premier Grand Prix, descriptions et images publiques des pages Grand Prix."
+  },
+  {
+    "id": "fia-circuit-safety",
+    "title": "FIA - Circuit Safety",
+    "url": "https://www.fia.com/circuit-safety",
+    "usage": "Contexte officiel sur la vérification, l'homologation et la sécurité des circuits."
+  },
+  {
+    "id": "wikimedia-circuit-photos",
+    "title": "Wikimedia Commons - Photos de circuits F1",
+    "url": "https://commons.wikimedia.org/",
+    "usage": "Photos réelles de pistes, vues aériennes ou vues satellite utilisées sur la page Circuits, avec crédit affiché sur chaque image."
   },
   {
     "id": "wikimedia-commons-f1-images",

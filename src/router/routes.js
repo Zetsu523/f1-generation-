@@ -4,6 +4,7 @@ export const navItems = [
   { to: '/moteurs', label: 'Moteurs' },
   { to: '/composants', label: 'Composants' },
   { to: '/ecuries', label: 'Écuries' },
+  { to: '/circuits', label: 'Circuits' },
   { to: '/aerodynamique', label: 'Aérodynamique' },
   { to: '/pneus', label: 'Pneus' },
   { to: '/reglements', label: 'Règlements' },

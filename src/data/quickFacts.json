@@ -69,6 +69,26 @@
       "tone": "green"
     }
   ],
+  "circuits": [
+    {
+      "label": "Calendrier",
+      "value": "22",
+      "description": "Les fiches suivent les Grands Prix listés sur le calendrier officiel F1 2026.",
+      "tone": "blue"
+    },
+    {
+      "label": "Visuels",
+      "value": "photos",
+      "description": "Chaque fiche utilise une vraie photo de piste ou de zone de circuit, avec crédit affiché.",
+      "tone": "red"
+    },
+    {
+      "label": "Histoire",
+      "value": "pilotes",
+      "description": "Chaque circuit met en avant les pilotes qui ont marqué sa mémoire sportive.",
+      "tone": "gold"
+    }
+  ],
   "glossary": [
     {
       "label": "Recherche",
@@ -84,4 +104,3 @@
     }
   ]
 }
-
